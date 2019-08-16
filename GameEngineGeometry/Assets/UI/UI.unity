@@ -138,7 +138,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 27101293}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 1317563070}
@@ -182,7 +182,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300088, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -442,8 +442,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 1145219554}
   canvas: {fileID: 1167389601}
-  ItemName: NA
-  ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  ItemName: Refinement Oil
+  ItemIcon: {fileID: 21300118, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
 --- !u!65 &126854568
 BoxCollider:
@@ -482,7 +482,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 145326399}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.8101091, y: 0.8101091, z: 0.8101091}
   m_Children: []
   m_Father: {fileID: 1187224060}
@@ -566,7 +566,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 151306765}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 1920316131}
@@ -650,7 +650,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 169543992}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 329733140}
@@ -694,7 +694,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300082, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -734,7 +734,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 181626032}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 1949806264}
@@ -818,7 +818,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 267859722}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.8101091, y: 0.8101091, z: 0.8101091}
   m_Children: []
   m_Father: {fileID: 1998343421}
@@ -1032,7 +1032,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 318027367}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 704369102}
@@ -1076,7 +1076,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300282, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1206,8 +1206,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 169543996}
   canvas: {fileID: 1167389601}
-  ItemName: NA
-  ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  ItemName: Emerald
+  ItemIcon: {fileID: 21300082, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
 --- !u!65 &329733146
 BoxCollider:
@@ -1312,7 +1312,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 412790793}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 1264957450}
@@ -1616,8 +1616,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 1294232578}
   canvas: {fileID: 1167389601}
-  ItemName: NA
-  ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  ItemName: Refinement Oil
+  ItemIcon: {fileID: 21300118, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
 --- !u!65 &429946905
 BoxCollider:
@@ -1665,7 +1665,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 493.00003, y: 386.44992}
+  m_AnchoredPosition: {x: 493, y: 401}
   m_SizeDelta: {x: 904.7, y: 221.70001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &506799889
@@ -1688,11 +1688,11 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 180
+    m_Font: {fileID: 12800000, guid: ceb988fd1e01f96499099de042ee355f, type: 3}
+    m_FontSize: 93
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 0
     m_MaxSize: 223
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1851,8 +1851,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 1155368525}
   canvas: {fileID: 1167389601}
-  ItemName: NA
-  ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  ItemName: Wood
+  ItemIcon: {fileID: 21300160, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
 --- !u!65 &512040980
 BoxCollider:
@@ -1891,7 +1891,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 590198609}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 836021535}
@@ -1975,7 +1975,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 654476798}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.8101091, y: 0.8101091, z: 0.8101091}
   m_Children: []
   m_Father: {fileID: 1372068195}
@@ -2258,7 +2258,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 704242958}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.8101091, y: 0.8101091, z: 0.8101091}
   m_Children: []
   m_Father: {fileID: 313637022}
@@ -2432,8 +2432,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 318027371}
   canvas: {fileID: 1167389601}
-  ItemName: NA
-  ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  ItemName: Stone
+  ItemIcon: {fileID: 21300282, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
 --- !u!65 &704369108
 BoxCollider:
@@ -2692,8 +2692,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 1045766241}
   canvas: {fileID: 1167389601}
-  ItemName: NA
-  ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  ItemName: Refinement Oil
+  ItemIcon: {fileID: 21300118, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
 --- !u!65 &774569499
 BoxCollider:
@@ -3342,8 +3342,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 1354815478}
   canvas: {fileID: 1167389601}
-  ItemName: NA
-  ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  ItemName: Refinement Oil
+  ItemIcon: {fileID: 21300118, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
 --- !u!65 &886072114
 BoxCollider:
@@ -3512,7 +3512,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1001493804}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 1062015749}
@@ -3596,7 +3596,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1013542527}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.8105997, y: 0.8105997, z: 0.8105997}
   m_Children: []
   m_Father: {fileID: 880306159}
@@ -3810,7 +3810,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1045766237}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 774569493}
@@ -3854,7 +3854,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300118, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3984,7 +3984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 1001493808}
   canvas: {fileID: 1167389601}
-  ItemName: Garbage
+  ItemName: Paper
   ItemIcon: {fileID: 21300284, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
 --- !u!65 &1062015755
@@ -4024,7 +4024,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1102436691}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.8101091, y: 0.8101091, z: 0.8101091}
   m_Children: []
   m_Father: {fileID: 1916327259}
@@ -4108,7 +4108,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1145219550}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 126854562}
@@ -4152,7 +4152,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300118, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4192,7 +4192,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1149042312}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 879232672}
@@ -4276,7 +4276,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1155368521}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 512040974}
@@ -4320,7 +4320,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300160, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4766,7 +4766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 412790797}
   canvas: {fileID: 1167389601}
-  ItemName: Rock
+  ItemName: Stone
   ItemIcon: {fileID: 21300282, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
 --- !u!65 &1264957456
@@ -4806,7 +4806,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1294232574}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 429946899}
@@ -4850,7 +4850,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300118, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4980,8 +4980,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 27101297}
   canvas: {fileID: 1167389601}
-  ItemName: NA
-  ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  ItemName: Diamond
+  ItemIcon: {fileID: 21300088, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
 --- !u!65 &1317563076
 BoxCollider:
@@ -5150,7 +5150,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1354815474}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 886072108}
@@ -5194,7 +5194,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300118, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5364,7 +5364,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1402803119}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 1738979508}
@@ -5408,7 +5408,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300170, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5448,7 +5448,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1540031470}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 1964441090}
@@ -5532,7 +5532,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1548399792}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 1338654585}
@@ -5720,7 +5720,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1625752836}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.8101091, y: 0.8101091, z: 0.8101091}
   m_Children: []
   m_Father: {fileID: 678336168}
@@ -5804,7 +5804,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1676036184}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.8101091, y: 0.8101091, z: 0.8101091}
   m_Children: []
   m_Father: {fileID: 414501748}
@@ -5874,6 +5874,7 @@ GameObject:
   - component: {fileID: 1734396310}
   - component: {fileID: 1734396309}
   - component: {fileID: 1734396311}
+  - component: {fileID: 1734396312}
   m_Layer: 5
   m_Name: CraftingWindow
   m_TagString: Untagged
@@ -5958,6 +5959,44 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 0, y: -45}
   m_UseGraphicAlpha: 1
+--- !u!114 &1734396312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1734396307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1189dc5defcaedc4c98f1899c298bc2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topLeft: {fileID: 964467143}
+  topMiddle: {fileID: 880306164}
+  topRight: {fileID: 1998343426}
+  middleLeft: {fileID: 678336173}
+  middle: {fileID: 414501753}
+  middleRight: {fileID: 1372068200}
+  bottomLeft: {fileID: 1916327264}
+  bottomMiddle: {fileID: 747784644}
+  bottomRight: {fileID: 1187224065}
+  result: {fileID: 313637027}
+  recipes:
+  - {fileID: 11400000, guid: 6940910d665354a409a377d82b636379, type: 2}
+  - {fileID: 11400000, guid: 366b2b6e7c880aa4d9e8ce29e256fdc0, type: 2}
+  - {fileID: 11400000, guid: 864abbacc6ecc9b4d949f5d1559bc6ea, type: 2}
+  - {fileID: 11400000, guid: dd15681ba5fec57428a56623bb85f7c4, type: 2}
+  - {fileID: 11400000, guid: ae23b32894736c142901196e9b3d21b9, type: 2}
+  - {fileID: 11400000, guid: 3191b6ff69e277f4ea4b95e044677839, type: 2}
+  - {fileID: 11400000, guid: 3893fc1ca1856bf4fad375e9ae4f85c2, type: 2}
+  - {fileID: 11400000, guid: 234dfedea8459c240be8f5dbef7d7969, type: 2}
+  - {fileID: 11400000, guid: 14ab5655a0f16d742a950a673eb222cc, type: 2}
+  - {fileID: 11400000, guid: d2a0fb637f77e6b4aa6bc1691932cb36, type: 2}
+  - {fileID: 11400000, guid: 0dbb8a1f012016e4fb94ae020146610d, type: 2}
+  - {fileID: 11400000, guid: 50e476b16c1c3ee44b8d6c37a7b6a3bc, type: 2}
+  - {fileID: 11400000, guid: 4029673cf2ba76a4e8be51cdeb47911e, type: 2}
+  - {fileID: 11400000, guid: 11323e9db5d47304eafa33af7126b391, type: 2}
+  - {fileID: 11400000, guid: 72242e2c0bffc1e4eb934f72ccb3b307, type: 2}
+  - {fileID: 11400000, guid: 7fcee84078077644fa199d71897db253, type: 2}
 --- !u!1 &1738979507
 GameObject:
   m_ObjectHideFlags: 0
@@ -6073,8 +6112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 1402803123}
   canvas: {fileID: 1167389601}
-  ItemName: NA
-  ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  ItemName: Stick
+  ItemIcon: {fileID: 21300170, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
 --- !u!65 &1738979514
 BoxCollider:
@@ -6113,7 +6152,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1776110579}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.8101091, y: 0.8101091, z: 0.8101091}
   m_Children: []
   m_Father: {fileID: 747784639}
@@ -6197,7 +6236,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1815861120}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 812626781}
@@ -6281,7 +6320,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1830573346}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.8101091, y: 0.8101091, z: 0.8101091}
   m_Children: []
   m_Father: {fileID: 964467138}
@@ -7176,7 +7215,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2137612900}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 53985516}
@@ -7260,7 +7299,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2143783604}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.80692995, y: 0.80692995, z: 0.80692995}
   m_Children: []
   m_Father: {fileID: 1033928112}
