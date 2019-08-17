@@ -14,4 +14,5 @@ public class CraftingRecipe : ScriptableObject
     public string bottomLeft = "NA";
     public string bottomMiddle = "NA";
     public string bottomRight = "NA";
+    public string itemFlavor = "Little is known about this item...";
 }

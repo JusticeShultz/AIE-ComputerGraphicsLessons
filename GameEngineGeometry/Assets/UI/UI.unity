@@ -313,8 +313,12 @@ MonoBehaviour:
   sprite: {fileID: 2137612904}
   canvas: {fileID: 1167389601}
   ItemName: NA
+  ItemFlavor: Little is known about this item...
   ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: 160, z: 0}
 --- !u!65 &53985522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -443,8 +447,12 @@ MonoBehaviour:
   sprite: {fileID: 1145219554}
   canvas: {fileID: 1167389601}
   ItemName: Refinement Oil
+  ItemFlavor: A substance with a high magical potency.
   ItemIcon: {fileID: 21300118, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: -160, y: -160, z: 0}
 --- !u!65 &126854568
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -770,7 +778,7 @@ MonoBehaviour:
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
@@ -993,8 +1001,12 @@ MonoBehaviour:
   sprite: {fileID: 704242962}
   canvas: {fileID: 1167389601}
   ItemName: NA
+  ItemFlavor: Little is known about this item...
   ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &313637028
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1207,8 +1219,12 @@ MonoBehaviour:
   sprite: {fileID: 169543996}
   canvas: {fileID: 1167389601}
   ItemName: Emerald
+  ItemFlavor: A alchemical gem with strong magical properties.
   ItemIcon: {fileID: 21300082, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &329733146
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1487,8 +1503,12 @@ MonoBehaviour:
   sprite: {fileID: 1676036188}
   canvas: {fileID: 1167389601}
   ItemName: NA
+  ItemFlavor: Little is known about this item...
   ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &414501754
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1617,8 +1637,12 @@ MonoBehaviour:
   sprite: {fileID: 1294232578}
   canvas: {fileID: 1167389601}
   ItemName: Refinement Oil
+  ItemFlavor: A substance with a high magical potency.
   ItemIcon: {fileID: 21300118, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: 160, z: 0}
 --- !u!65 &429946905
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1644,7 +1668,7 @@ GameObject:
   - component: {fileID: 506799891}
   - component: {fileID: 506799892}
   m_Layer: 5
-  m_Name: Text
+  m_Name: CraftingText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1852,8 +1876,12 @@ MonoBehaviour:
   sprite: {fileID: 1155368525}
   canvas: {fileID: 1167389601}
   ItemName: Wood
+  ItemFlavor: A common material, often take from trees.
   ItemIcon: {fileID: 21300160, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &512040980
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2045,7 +2073,7 @@ GameObject:
   - component: {fileID: 674548808}
   - component: {fileID: 674548807}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2219,8 +2247,12 @@ MonoBehaviour:
   sprite: {fileID: 1625752840}
   canvas: {fileID: 1167389601}
   ItemName: NA
+  ItemFlavor: Little is known about this item...
   ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 160, y: -160, z: 0}
 --- !u!65 &678336174
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2433,8 +2465,12 @@ MonoBehaviour:
   sprite: {fileID: 318027371}
   canvas: {fileID: 1167389601}
   ItemName: Stone
+  ItemFlavor: It's a rock, what more can I say?
   ItemIcon: {fileID: 21300282, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &704369108
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2563,8 +2599,12 @@ MonoBehaviour:
   sprite: {fileID: 1776110583}
   canvas: {fileID: 1167389601}
   ItemName: NA
+  ItemFlavor: Little is known about this item...
   ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &747784645
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2693,8 +2733,12 @@ MonoBehaviour:
   sprite: {fileID: 1045766241}
   canvas: {fileID: 1167389601}
   ItemName: Refinement Oil
+  ItemFlavor: A substance with a high magical potency.
   ItemIcon: {fileID: 21300118, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &774569499
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2823,8 +2867,12 @@ MonoBehaviour:
   sprite: {fileID: 1815861124}
   canvas: {fileID: 1167389601}
   ItemName: Worm
+  ItemFlavor: Probably useless, but I found it on the ground so it's cool.
   ItemIcon: {fileID: 21300306, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &812626787
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2953,8 +3001,12 @@ MonoBehaviour:
   sprite: {fileID: 590198613}
   canvas: {fileID: 1167389601}
   ItemName: NA
+  ItemFlavor: Little is known about this item...
   ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: 160, z: 0}
 --- !u!65 &836021541
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3083,8 +3135,12 @@ MonoBehaviour:
   sprite: {fileID: 1149042316}
   canvas: {fileID: 1167389601}
   ItemName: Stick
+  ItemFlavor: It's a stick...
   ItemIcon: {fileID: 21300170, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &879232678
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3213,8 +3269,12 @@ MonoBehaviour:
   sprite: {fileID: 1013542531}
   canvas: {fileID: 1167389601}
   ItemName: NA
+  ItemFlavor: Little is known about this item...
   ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &880306165
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3343,8 +3403,12 @@ MonoBehaviour:
   sprite: {fileID: 1354815478}
   canvas: {fileID: 1167389601}
   ItemName: Refinement Oil
+  ItemFlavor: A substance with a high magical potency.
   ItemIcon: {fileID: 21300118, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &886072114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3473,8 +3537,12 @@ MonoBehaviour:
   sprite: {fileID: 1830573350}
   canvas: {fileID: 1167389601}
   ItemName: NA
+  ItemFlavor: Little is known about this item...
   ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 160, y: -160, z: 0}
 --- !u!65 &964467144
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3771,8 +3839,12 @@ MonoBehaviour:
   sprite: {fileID: 2143783608}
   canvas: {fileID: 1167389601}
   ItemName: Shield
+  ItemFlavor: Probably the worst shield ever made.
   ItemIcon: {fileID: 21300296, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: -160, y: -160, z: 0}
 --- !u!65 &1033928118
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3985,8 +4057,12 @@ MonoBehaviour:
   sprite: {fileID: 1001493808}
   canvas: {fileID: 1167389601}
   ItemName: Paper
+  ItemFlavor: Maybe you can write on it or something...
   ItemIcon: {fileID: 21300284, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &1062015755
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4548,8 +4624,12 @@ MonoBehaviour:
   sprite: {fileID: 145326403}
   canvas: {fileID: 1167389601}
   ItemName: NA
+  ItemFlavor: Little is known about this item...
   ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &1187224066
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4767,8 +4847,12 @@ MonoBehaviour:
   sprite: {fileID: 412790797}
   canvas: {fileID: 1167389601}
   ItemName: Stone
+  ItemFlavor: It's a rock, what more can I say?
   ItemIcon: {fileID: 21300282, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: -160, y: -160, z: 0}
 --- !u!65 &1264957456
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4981,8 +5065,12 @@ MonoBehaviour:
   sprite: {fileID: 27101297}
   canvas: {fileID: 1167389601}
   ItemName: Diamond
+  ItemFlavor: Precious and rare. Used to bring items to their final stages.
   ItemIcon: {fileID: 21300088, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: -160, y: -160, z: 0}
 --- !u!65 &1317563076
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5111,8 +5199,12 @@ MonoBehaviour:
   sprite: {fileID: 1548399796}
   canvas: {fileID: 1167389601}
   ItemName: NA
+  ItemFlavor: Little is known about this item...
   ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: -160, y: 160, z: 0}
 --- !u!65 &1338654591
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5325,8 +5417,12 @@ MonoBehaviour:
   sprite: {fileID: 654476802}
   canvas: {fileID: 1167389601}
   ItemName: NA
+  ItemFlavor: Little is known about this item...
   ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &1372068201
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6113,8 +6209,12 @@ MonoBehaviour:
   sprite: {fileID: 1402803123}
   canvas: {fileID: 1167389601}
   ItemName: Stick
+  ItemFlavor: It's a stick...
   ItemIcon: {fileID: 21300170, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &1738979514
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6495,8 +6595,12 @@ MonoBehaviour:
   sprite: {fileID: 1102436695}
   canvas: {fileID: 1167389601}
   ItemName: NA
+  ItemFlavor: Little is known about this item...
   ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 160, y: -160, z: 0}
 --- !u!65 &1916327265
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6625,8 +6729,12 @@ MonoBehaviour:
   sprite: {fileID: 151306769}
   canvas: {fileID: 1167389601}
   ItemName: String
+  ItemFlavor: Simple material that allows you to bind together objects.
   ItemIcon: {fileID: 21300162, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &1920316137
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6755,8 +6863,12 @@ MonoBehaviour:
   sprite: {fileID: 181626036}
   canvas: {fileID: 1167389601}
   ItemName: Wood
+  ItemFlavor: A common material, often take from trees.
   ItemIcon: {fileID: 21300160, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &1949806270
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6885,8 +6997,12 @@ MonoBehaviour:
   sprite: {fileID: 1540031474}
   canvas: {fileID: 1167389601}
   ItemName: Gem
+  ItemFlavor: This gem glows with magical energy.
   ItemIcon: {fileID: 21300086, guid: 142751ade1f2e864c984407f94f05993, type: 3}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &1964441096
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7015,8 +7131,12 @@ MonoBehaviour:
   sprite: {fileID: 267859726}
   canvas: {fileID: 1167389601}
   ItemName: NA
+  ItemFlavor: Little is known about this item...
   ItemIcon: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
+  BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
+    type: 2}
+  tooltipOffset: {x: 0, y: -160, z: 0}
 --- !u!65 &1998343427
 BoxCollider:
   m_ObjectHideFlags: 0

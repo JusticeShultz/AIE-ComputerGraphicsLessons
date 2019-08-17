@@ -11,12 +11,16 @@ public class InventorySlot : MonoBehaviour
     public Image sprite;
     public GameObject canvas;
     public string ItemName = "NA";
+    public string ItemFlavor = "Little is known about this item...";
     public Sprite ItemIcon;
     public Material overMat;
+    public GameObject BaseTooltip;
+    public Vector3 tooltipOffset = Vector3.zero;
     private bool IsHovered = false;
     private bool IsDragging = false;
     private bool SpecialHover = false;
-
+    private GameObject tooltip;
+    
     private void Awake()
     {
         inventorySlots.Clear();
@@ -30,6 +34,25 @@ public class InventorySlot : MonoBehaviour
 
     void Update ()
     {
+        if(IsHovered && ItemName != "NA")
+        {
+            if (!tooltip)
+            {
+                tooltip = Instantiate(BaseTooltip);
+                tooltip.transform.SetParent(transform);
+                RectTransform transformOfTooltip = tooltip.GetComponent<RectTransform>();
+                transformOfTooltip.localScale = Vector3.one;
+                transformOfTooltip.localPosition = tooltipOffset;
+                TooltipData informationFields = tooltip.GetComponent<TooltipData>();
+                informationFields.nameObject.text = ItemName;
+                informationFields.flavorObject.text = ItemFlavor;
+            }
+        }
+        else
+        {
+            if (tooltip) Destroy(tooltip);
+        }
+
         if (!Input.GetMouseButton(0) && !HoldingObject)
         {
             if (SpecialHover) IsHovered = true;
@@ -54,13 +77,17 @@ public class InventorySlot : MonoBehaviour
                                 InventorySlot slot = inventorySlots[i];
 
                                 string hitItemName = slot.ItemName;
+                                string hitItemFlavor = slot.ItemFlavor;
                                 Sprite hitItemIcon = slot.ItemIcon;
                                 string myItemName = ItemName;
+                                string myItemFlavor = ItemFlavor;
                                 Sprite myItemIcon = ItemIcon;
 
                                 slot.ItemName = myItemName;
+                                slot.ItemFlavor = myItemFlavor;
                                 slot.ItemIcon = myItemIcon;
                                 ItemName = hitItemName;
+                                ItemFlavor = hitItemFlavor;
                                 ItemIcon = hitItemIcon;
 
                                 sprite.sprite = hitItemIcon;
@@ -97,13 +124,17 @@ public class InventorySlot : MonoBehaviour
                         InventorySlot slot = inventorySlots[i];
 
                         string hitItemName = slot.ItemName;
+                        string hitItemFlavor = slot.ItemFlavor;
                         Sprite hitItemIcon = slot.ItemIcon;
                         string myItemName = ItemName;
+                        string myItemFlavor = ItemFlavor;
                         Sprite myItemIcon = ItemIcon;
 
                         slot.ItemName = myItemName;
+                        slot.ItemFlavor = myItemFlavor;
                         slot.ItemIcon = myItemIcon;
                         ItemName = hitItemName;
+                        ItemFlavor = hitItemFlavor;
                         ItemIcon = hitItemIcon;
 
                         sprite.sprite = hitItemIcon;

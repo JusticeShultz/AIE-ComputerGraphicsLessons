@@ -36,7 +36,7 @@ public class Crafting : MonoBehaviour
             {
                 result.ItemName = recipe.resultName;
                 result.ItemIcon = recipe.resultIcon;
-
+                result.ItemFlavor = recipe.itemFlavor;
                 CanCraft = true;
 
                 break;
@@ -44,6 +44,7 @@ public class Crafting : MonoBehaviour
             else
             {
                 result.ItemName = "NA";
+                result.ItemFlavor = "Oh shit fuck ;-;";
                 result.ItemIcon = null;
             }
         }
