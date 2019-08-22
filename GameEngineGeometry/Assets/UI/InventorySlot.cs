@@ -16,6 +16,10 @@ public class InventorySlot : MonoBehaviour
     public Material overMat;
     public GameObject BaseTooltip;
     public Vector3 tooltipOffset = Vector3.zero;
+    public GameObject CraftingMenu;
+    public GameObject CraftingCamera;
+    public bool CraftingMenuToggle;
+
     private bool IsHovered = false;
     private bool IsDragging = false;
     private bool SpecialHover = false;
@@ -43,6 +47,7 @@ public class InventorySlot : MonoBehaviour
                 RectTransform transformOfTooltip = tooltip.GetComponent<RectTransform>();
                 transformOfTooltip.localScale = Vector3.one;
                 transformOfTooltip.localPosition = tooltipOffset;
+                transformOfTooltip.localRotation = transform.localRotation;
                 TooltipData informationFields = tooltip.GetComponent<TooltipData>();
                 informationFields.nameObject.text = ItemName;
                 informationFields.flavorObject.text = ItemFlavor;
