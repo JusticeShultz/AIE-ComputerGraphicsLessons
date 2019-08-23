@@ -16,9 +16,6 @@ public class InventorySlot : MonoBehaviour
     public Material overMat;
     public GameObject BaseTooltip;
     public Vector3 tooltipOffset = Vector3.zero;
-    public GameObject CraftingMenu;
-    public GameObject CraftingCamera;
-    public bool CraftingMenuToggle;
 
     private bool IsHovered = false;
     private bool IsDragging = false;

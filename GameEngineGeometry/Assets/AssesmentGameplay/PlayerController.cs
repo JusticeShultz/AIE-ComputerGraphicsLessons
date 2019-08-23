@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public float AimSpeed = 4;
     public GameObject PlaceholderArrow;
     public GameObject Arrow;
+    public GameObject AimOffset;
 
     private float Aim = 0.0f;
     private float horizontal = 0;
@@ -33,6 +34,10 @@ public class PlayerController : MonoBehaviour
 
         if (rigidbody.velocity.magnitude > 0.5f)
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(rigidbody.velocity, Vector3.up), 0.4f);
+
+        if (Aim >= 0.25f)
+            AimOffset.transform.localRotation = Quaternion.Lerp(AimOffset.transform.localRotation, Quaternion.Euler(0, 65, 0), 0.4f);
+        else AimOffset.transform.localRotation = Quaternion.Lerp(AimOffset.transform.localRotation, Quaternion.Euler(0, 0, 0), 0.4f);
 
         if (Aim <= 0.85f)
             PlaceholderArrow.SetActive(false);
