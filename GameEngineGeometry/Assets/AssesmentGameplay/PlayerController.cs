@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(rigidbody.velocity, Vector3.up), 0.4f);
 
         if (Aim >= 0.25f)
-            AimOffset.transform.localRotation = Quaternion.Lerp(AimOffset.transform.localRotation, Quaternion.Euler(0, 65, 0), 0.4f);
+            AimOffset.transform.localRotation = Quaternion.Lerp(AimOffset.transform.localRotation, Quaternion.Euler(0, 60, 0), 0.4f);
         else AimOffset.transform.localRotation = Quaternion.Lerp(AimOffset.transform.localRotation, Quaternion.Euler(0, 0, 0), 0.4f);
 
         if (Aim <= 0.85f)

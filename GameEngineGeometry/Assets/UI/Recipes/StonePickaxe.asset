@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: StonePickaxe
   m_EditorClassIdentifier: 
   resultName: Stone Pickaxe
-  resultIcon: {fileID: 21300166, guid: 142751ade1f2e864c984407f94f05993, type: 3}
+  resultIcon: {fileID: 21300312, guid: 77ba41eec0dfba44a843d43c6f5e5ecd, type: 3}
   topLeft: NA
   topMiddle: Stone
   topRight: NA

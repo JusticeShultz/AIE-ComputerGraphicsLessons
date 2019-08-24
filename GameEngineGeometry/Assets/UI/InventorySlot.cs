@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class InventorySlot : MonoBehaviour
 {
     public static bool HoldingObject = false;
-    static List<InventorySlot> inventorySlots = new List<InventorySlot>();
+    public static List<InventorySlot> inventorySlots = new List<InventorySlot>();
 
     public Image sprite;
     public GameObject canvas;
@@ -78,22 +78,14 @@ public class InventorySlot : MonoBehaviour
                             {
                                 InventorySlot slot = inventorySlots[i];
 
-                                string hitItemName = slot.ItemName;
-                                string hitItemFlavor = slot.ItemFlavor;
-                                Sprite hitItemIcon = slot.ItemIcon;
-                                string myItemName = ItemName;
-                                string myItemFlavor = ItemFlavor;
-                                Sprite myItemIcon = ItemIcon;
+                                slot.ItemName = ItemName;
+                                slot.ItemFlavor = ItemFlavor;
+                                slot.ItemIcon = ItemIcon;
+                                slot.sprite.sprite = ItemIcon;
 
-                                slot.ItemName = myItemName;
-                                slot.ItemFlavor = myItemFlavor;
-                                slot.ItemIcon = myItemIcon;
-                                ItemName = hitItemName;
-                                ItemFlavor = hitItemFlavor;
-                                ItemIcon = hitItemIcon;
-
-                                sprite.sprite = hitItemIcon;
-                                slot.sprite.sprite = myItemIcon;
+                                ItemName = "NA";
+                                ItemFlavor = "NA";
+                                ItemIcon = null;
 
                                 break;
                             }
