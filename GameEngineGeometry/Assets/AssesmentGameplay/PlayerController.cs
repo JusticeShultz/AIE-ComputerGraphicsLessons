@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
             Aim = Mathf.Lerp(Aim, 1.0f, Time.deltaTime * AimSpeed);
         else Aim = Mathf.Lerp(Aim, 0.0f, (Time.deltaTime * AimSpeed) * 2);
 
-        if (Input.GetMouseButtonUp(0) && Aim >= 0.85f)
+        if (Input.GetMouseButtonUp(0) && Aim >= 0.85f && !InventoryToggle.InventoryOpened)
         {
             GameObject arrow = Instantiate(Arrow, PlaceholderArrow.transform.position, PlaceholderArrow.transform.rotation);
             arrow.GetComponent<Rigidbody>().AddForce(PlaceholderArrow.transform.forward * 450);

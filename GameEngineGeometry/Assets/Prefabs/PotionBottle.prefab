@@ -128,7 +128,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1934403401429760}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.63, y: 0.264, z: 4.15}
+  m_LocalPosition: {x: -22.28, y: 0.5, z: 18.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4714925202478712}
@@ -291,7 +291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Refinement Oil
   itemFlavor: A substance with a high magical potency.
-  itemIcon: {fileID: 21300118, guid: 142751ade1f2e864c984407f94f05993, type: 3}
+  itemIcon: {fileID: 21300180, guid: 77ba41eec0dfba44a843d43c6f5e5ecd, type: 3}
 --- !u!135 &135225794997253350
 SphereCollider:
   m_ObjectHideFlags: 1

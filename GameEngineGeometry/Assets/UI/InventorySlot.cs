@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class InventorySlot : MonoBehaviour
 {
     public static bool HoldingObject = false;
-    public static List<InventorySlot> inventorySlots = new List<InventorySlot>();
+    public static InventorySlot[] inventorySlots = new InventorySlot[29];
 
     public Image sprite;
     public GameObject canvas;
@@ -16,20 +16,16 @@ public class InventorySlot : MonoBehaviour
     public Material overMat;
     public GameObject BaseTooltip;
     public Vector3 tooltipOffset = Vector3.zero;
+    public int inventoryIndex = 0;
 
     private bool IsHovered = false;
     private bool IsDragging = false;
     private bool SpecialHover = false;
     private GameObject tooltip;
-    
-    private void Awake()
-    {
-        inventorySlots.Clear();
-    }
 
     private void Start()
     {
-        inventorySlots.Add(this);
+        inventorySlots[inventoryIndex] = this;
         HoldingObject = false;
     }
 
@@ -48,6 +44,18 @@ public class InventorySlot : MonoBehaviour
                 TooltipData informationFields = tooltip.GetComponent<TooltipData>();
                 informationFields.nameObject.text = ItemName;
                 informationFields.flavorObject.text = ItemFlavor;
+            }
+            else
+            {
+                Vector2 pos01;
+                RectTransformUtility.ScreenPointToLocalPointInRectangle(canvas.transform as RectTransform, Input.mousePosition, CameraRef.cam, out pos01);
+                
+                if(tooltipOffset.x > 0)
+                    tooltip.transform.localPosition = Vector3.Lerp(tooltip.transform.localPosition, tooltipOffset + (new Vector3(pos01.x, 0, 0) * 0.6f) + new Vector3(500, 0, 0), 0.1f);
+                else if (tooltipOffset.x == 0)
+                    tooltip.transform.localPosition = Vector3.Lerp(tooltip.transform.localPosition, tooltipOffset + (new Vector3(pos01.x, 0, 0) * 0.6f), 0.1f);
+                else
+                    tooltip.transform.localPosition = Vector3.Lerp(tooltip.transform.localPosition, tooltipOffset + (new Vector3(pos01.x, 0, 0) * 0.6f) - new Vector3(500, 0, 0), 0.1f);
             }
         }
         else
@@ -72,7 +80,7 @@ public class InventorySlot : MonoBehaviour
                 {
                     if (Crafting.CanCraft && gameObject.name == "Result")
                     {
-                        for (int i = 0; i < inventorySlots.Count; i++)
+                        for (int i = 0; i < 29; i++)
                         {
                             if (inventorySlots[i].ItemName == "NA")
                             {
@@ -91,7 +99,8 @@ public class InventorySlot : MonoBehaviour
                             }
                         }
 
-                        Crafting.reference.DestroyCraftingMaterials();
+                        if(ItemName == "NA")
+                            Crafting.reference.DestroyCraftingMaterials();
                     }
                     else
                     {
@@ -108,7 +117,7 @@ public class InventorySlot : MonoBehaviour
         {
             if (IsDragging)
             {
-                for (int i = 0; i < inventorySlots.Count; i++)
+                for (int i = 0; i < 29; i++)
                 {
                     if (inventorySlots[i].name == "Result") continue;
 

@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class InventoryToggle : MonoBehaviour
 {
     public static CollectableData collectable;
+    public static bool InventoryOpened = false;
 
     public GameObject InventoryObject;
     public GameObject InventoryCamera;
@@ -20,8 +21,8 @@ public class InventoryToggle : MonoBehaviour
     {
         collectable = null;
     }
-	
-	void Update ()
+
+    void Update()
     {
         PickupTooltip.SetActive(collectable != null);
 
@@ -29,9 +30,9 @@ public class InventoryToggle : MonoBehaviour
         {
             pickupName.text = "Press E to pick up [1] " + collectable.itemName;
 
-            if(Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E))
             {
-                for (int i = 0; i < InventorySlot.inventorySlots.Count; i++)
+                for (int i = 0; i < 29; i++)
                 {
                     if (InventorySlot.inventorySlots[i].ItemName == "NA" && InventorySlot.inventorySlots[i].transform.parent.name != "CraftingWindow")
                     {
@@ -53,7 +54,10 @@ public class InventoryToggle : MonoBehaviour
         else pickupName.text = "";
 
         if (Input.GetKeyDown(KeyCode.Tab))
+        {
             InventoryToggled = !InventoryToggled;
+            InventoryOpened = InventoryToggled;
+        }
 
         if(InventoryToggled)
         {

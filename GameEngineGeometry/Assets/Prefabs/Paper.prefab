@@ -39,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1076264394178440}
   m_LocalRotation: {x: -0, y: 0.5440926, z: -0, w: 0.8390252}
-  m_LocalPosition: {x: 10.19, y: 0, z: -21.38}
+  m_LocalPosition: {x: 10.19, y: 0.236, z: -21.38}
   m_LocalScale: {x: 1.5478942, y: 0.017268453, z: 2.498532}
   m_Children: []
   m_Father: {fileID: 0}
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Paper
   itemFlavor: Maybe you can write on it or something...
-  itemIcon: {fileID: 21300284, guid: 142751ade1f2e864c984407f94f05993, type: 3}
+  itemIcon: {fileID: 21300008, guid: 77ba41eec0dfba44a843d43c6f5e5ecd, type: 3}
 --- !u!135 &135253280433402770
 SphereCollider:
   m_ObjectHideFlags: 1

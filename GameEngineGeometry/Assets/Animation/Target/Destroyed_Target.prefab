@@ -678,7 +678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Wood
   itemFlavor: A common material, often take from trees.
-  itemIcon: {fileID: 21300160, guid: 142751ade1f2e864c984407f94f05993, type: 3}
+  itemIcon: {fileID: 21300036, guid: 77ba41eec0dfba44a843d43c6f5e5ecd, type: 3}
 --- !u!135 &135298229760307148
 SphereCollider:
   m_ObjectHideFlags: 1

@@ -350,6 +350,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: 0, y: 160, z: 0}
+  inventoryIndex: 17
 --- !u!65 &53985522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -612,6 +613,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: -160, y: -160, z: 0}
+  inventoryIndex: 15
 --- !u!65 &126854568
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1447,6 +1449,12 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114161440377173384, guid: 0f818c00c8b4cb648a15b24ac949edce,
+        type: 2}
+      propertyPath: itemIcon
+      value: 
+      objectReference: {fileID: 21300110, guid: 77ba41eec0dfba44a843d43c6f5e5ecd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f818c00c8b4cb648a15b24ac949edce, type: 2}
   m_IsPrefabAsset: 0
@@ -1668,23 +1676,6 @@ Transform:
   m_Father: {fileID: 200940619}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &246520938 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1646094194169352, guid: 0f818c00c8b4cb648a15b24ac949edce,
-    type: 2}
-  m_PrefabInternal: {fileID: 1005387335}
---- !u!135 &246520939
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 246520938}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.64
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &267859722
 GameObject:
   m_ObjectHideFlags: 0
@@ -6588,6 +6579,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: 0, y: -160, z: 0}
+  inventoryIndex: 0
 --- !u!65 &313637028
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6876,7 +6868,8 @@ MonoBehaviour:
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
-  tooltipOffset: {x: 0, y: -160, z: 0}
+  tooltipOffset: {x: -15, y: -160, z: 0}
+  inventoryIndex: 14
 --- !u!65 &329733146
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7266,6 +7259,12 @@ Prefab:
       propertyPath: m_Name
       value: Stone (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 114161440377173384, guid: 0f818c00c8b4cb648a15b24ac949edce,
+        type: 2}
+      propertyPath: itemIcon
+      value: 
+      objectReference: {fileID: 21300110, guid: 77ba41eec0dfba44a843d43c6f5e5ecd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f818c00c8b4cb648a15b24ac949edce, type: 2}
   m_IsPrefabAsset: 0
@@ -7522,7 +7521,8 @@ MonoBehaviour:
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
-  tooltipOffset: {x: 0, y: -160, z: 0}
+  tooltipOffset: {x: 50, y: -160, z: 0}
+  inventoryIndex: 24
 --- !u!65 &414501754
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7609,6 +7609,12 @@ Prefab:
       propertyPath: m_Name
       value: PotionBottle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 114970901804806242, guid: 6869eadfe52f7e44787cd01af0ba1cd6,
+        type: 2}
+      propertyPath: itemIcon
+      value: 
+      objectReference: {fileID: 21300180, guid: 77ba41eec0dfba44a843d43c6f5e5ecd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6869eadfe52f7e44787cd01af0ba1cd6, type: 2}
   m_IsPrefabAsset: 0
@@ -7734,6 +7740,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: 0, y: 160, z: 0}
+  inventoryIndex: 16
 --- !u!65 &429946905
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8153,12 +8160,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: ceb988fd1e01f96499099de042ee355f, type: 3}
-    m_FontSize: 93
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 195
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 223
+    m_MaxSize: 224
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -8323,6 +8330,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: 0, y: -160, z: 0}
+  inventoryIndex: 9
 --- !u!65 &512040980
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8951,6 +8959,12 @@ Prefab:
       propertyPath: m_Name
       value: PotionBottle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 114970901804806242, guid: 6869eadfe52f7e44787cd01af0ba1cd6,
+        type: 2}
+      propertyPath: itemIcon
+      value: 
+      objectReference: {fileID: 21300180, guid: 77ba41eec0dfba44a843d43c6f5e5ecd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6869eadfe52f7e44787cd01af0ba1cd6, type: 2}
   m_IsPrefabAsset: 0
@@ -9296,6 +9310,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: 160, y: -160, z: 0}
+  inventoryIndex: 23
 --- !u!65 &678336174
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9514,6 +9529,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: 0, y: -160, z: 0}
+  inventoryIndex: 8
 --- !u!65 &704369108
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9677,7 +9693,8 @@ MonoBehaviour:
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
-  tooltipOffset: {x: 0, y: -160, z: 0}
+  tooltipOffset: {x: 50, y: -160, z: 0}
+  inventoryIndex: 27
 --- !u!65 &747784645
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9764,6 +9781,12 @@ Prefab:
       propertyPath: m_Name
       value: PotionBottle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 114970901804806242, guid: 6869eadfe52f7e44787cd01af0ba1cd6,
+        type: 2}
+      propertyPath: itemIcon
+      value: 
+      objectReference: {fileID: 21300180, guid: 77ba41eec0dfba44a843d43c6f5e5ecd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6869eadfe52f7e44787cd01af0ba1cd6, type: 2}
   m_IsPrefabAsset: 0
@@ -9979,6 +10002,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: 0, y: -160, z: 0}
+  inventoryIndex: 13
 --- !u!65 &774569499
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10034,6 +10058,12 @@ Prefab:
       propertyPath: m_Name
       value: PotionBottle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 114970901804806242, guid: 6869eadfe52f7e44787cd01af0ba1cd6,
+        type: 2}
+      propertyPath: itemIcon
+      value: 
+      objectReference: {fileID: 21300180, guid: 77ba41eec0dfba44a843d43c6f5e5ecd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6869eadfe52f7e44787cd01af0ba1cd6, type: 2}
   m_IsPrefabAsset: 0
@@ -10277,6 +10307,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: 0, y: -160, z: 0}
+  inventoryIndex: 5
 --- !u!65 &812626787
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10373,7 +10404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Paper
   itemFlavor: Maybe you can write on it or something...
-  itemIcon: {fileID: 21300284, guid: 142751ade1f2e864c984407f94f05993, type: 3}
+  itemIcon: {fileID: 21300008, guid: 77ba41eec0dfba44a843d43c6f5e5ecd, type: 3}
 --- !u!135 &831831211
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10534,7 +10565,8 @@ MonoBehaviour:
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
-  tooltipOffset: {x: 0, y: 160, z: 0}
+  tooltipOffset: {x: -15, y: 160, z: 0}
+  inventoryIndex: 18
 --- !u!65 &836021541
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10758,7 +10790,8 @@ MonoBehaviour:
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
-  tooltipOffset: {x: 0, y: -160, z: 0}
+  tooltipOffset: {x: -15, y: -160, z: 0}
+  inventoryIndex: 6
 --- !u!65 &879232678
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10814,6 +10847,12 @@ Prefab:
       propertyPath: m_Name
       value: Stone (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 114161440377173384, guid: 0f818c00c8b4cb648a15b24ac949edce,
+        type: 2}
+      propertyPath: itemIcon
+      value: 
+      objectReference: {fileID: 21300110, guid: 77ba41eec0dfba44a843d43c6f5e5ecd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f818c00c8b4cb648a15b24ac949edce, type: 2}
   m_IsPrefabAsset: 0
@@ -10938,7 +10977,8 @@ MonoBehaviour:
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
-  tooltipOffset: {x: 0, y: -160, z: 0}
+  tooltipOffset: {x: 50, y: -160, z: 0}
+  inventoryIndex: 21
 --- !u!65 &880306165
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11109,6 +11149,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: 0, y: -160, z: 0}
+  inventoryIndex: 12
 --- !u!65 &886072114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11293,6 +11334,12 @@ Prefab:
       propertyPath: m_Name
       value: PotionBottle (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 114970901804806242, guid: 6869eadfe52f7e44787cd01af0ba1cd6,
+        type: 2}
+      propertyPath: itemIcon
+      value: 
+      objectReference: {fileID: 21300180, guid: 77ba41eec0dfba44a843d43c6f5e5ecd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6869eadfe52f7e44787cd01af0ba1cd6, type: 2}
   m_IsPrefabAsset: 0
@@ -11339,6 +11386,12 @@ Prefab:
       propertyPath: m_Name
       value: Stone (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 114161440377173384, guid: 0f818c00c8b4cb648a15b24ac949edce,
+        type: 2}
+      propertyPath: itemIcon
+      value: 
+      objectReference: {fileID: 21300110, guid: 77ba41eec0dfba44a843d43c6f5e5ecd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f818c00c8b4cb648a15b24ac949edce, type: 2}
   m_IsPrefabAsset: 0
@@ -11600,6 +11653,12 @@ Prefab:
       propertyPath: m_Name
       value: Stone (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 114161440377173384, guid: 0f818c00c8b4cb648a15b24ac949edce,
+        type: 2}
+      propertyPath: itemIcon
+      value: 
+      objectReference: {fileID: 21300110, guid: 77ba41eec0dfba44a843d43c6f5e5ecd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f818c00c8b4cb648a15b24ac949edce, type: 2}
   m_IsPrefabAsset: 0
@@ -11646,6 +11705,12 @@ Prefab:
       propertyPath: m_Name
       value: Stone (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 114161440377173384, guid: 0f818c00c8b4cb648a15b24ac949edce,
+        type: 2}
+      propertyPath: itemIcon
+      value: 
+      objectReference: {fileID: 21300110, guid: 77ba41eec0dfba44a843d43c6f5e5ecd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f818c00c8b4cb648a15b24ac949edce, type: 2}
   m_IsPrefabAsset: 0
@@ -11771,6 +11836,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: 160, y: -160, z: 0}
+  inventoryIndex: 20
 --- !u!65 &964467144
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12401,6 +12467,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: -160, y: -160, z: 0}
+  inventoryIndex: 7
 --- !u!65 &1033928118
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12648,7 +12715,8 @@ MonoBehaviour:
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
-  tooltipOffset: {x: 0, y: -160, z: 0}
+  tooltipOffset: {x: -15, y: -160, z: 0}
+  inventoryIndex: 2
 --- !u!65 &1062015755
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13031,7 +13099,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Paper
   itemFlavor: Maybe you can write on it or something...
-  itemIcon: {fileID: 21300284, guid: 142751ade1f2e864c984407f94f05993, type: 3}
+  itemIcon: {fileID: 21300008, guid: 77ba41eec0dfba44a843d43c6f5e5ecd, type: 3}
 --- !u!135 &1109533553
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13519,6 +13587,12 @@ Prefab:
       propertyPath: m_Name
       value: Stone (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 114161440377173384, guid: 0f818c00c8b4cb648a15b24ac949edce,
+        type: 2}
+      propertyPath: itemIcon
+      value: 
+      objectReference: {fileID: 21300110, guid: 77ba41eec0dfba44a843d43c6f5e5ecd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f818c00c8b4cb648a15b24ac949edce, type: 2}
   m_IsPrefabAsset: 0
@@ -13901,7 +13975,8 @@ MonoBehaviour:
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
-  tooltipOffset: {x: 0, y: -160, z: 0}
+  tooltipOffset: {x: 25, y: -160, z: 0}
+  inventoryIndex: 28
 --- !u!65 &1187224066
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14323,6 +14398,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: -160, y: -160, z: 0}
+  inventoryIndex: 3
 --- !u!65 &1264957456
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14409,6 +14485,12 @@ Prefab:
       propertyPath: m_Name
       value: PotionBottle (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 114970901804806242, guid: 6869eadfe52f7e44787cd01af0ba1cd6,
+        type: 2}
+      propertyPath: itemIcon
+      value: 
+      objectReference: {fileID: 21300180, guid: 77ba41eec0dfba44a843d43c6f5e5ecd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6869eadfe52f7e44787cd01af0ba1cd6, type: 2}
   m_IsPrefabAsset: 0
@@ -14618,6 +14700,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: -160, y: -160, z: 0}
+  inventoryIndex: 11
 --- !u!65 &1317563076
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15040,6 +15123,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: -160, y: 160, z: 0}
+  inventoryIndex: 19
 --- !u!65 &1338654591
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15214,6 +15298,12 @@ Prefab:
       propertyPath: m_Name
       value: Stone (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 114161440377173384, guid: 0f818c00c8b4cb648a15b24ac949edce,
+        type: 2}
+      propertyPath: itemIcon
+      value: 
+      objectReference: {fileID: 21300110, guid: 77ba41eec0dfba44a843d43c6f5e5ecd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f818c00c8b4cb648a15b24ac949edce, type: 2}
   m_IsPrefabAsset: 0
@@ -15338,7 +15428,8 @@ MonoBehaviour:
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
-  tooltipOffset: {x: 0, y: -160, z: 0}
+  tooltipOffset: {x: 25, y: -160, z: 0}
+  inventoryIndex: 25
 --- !u!65 &1372068201
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26023,7 +26114,8 @@ MonoBehaviour:
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
-  tooltipOffset: {x: 0, y: -160, z: 0}
+  tooltipOffset: {x: -15, y: -160, z: 0}
+  inventoryIndex: 10
 --- !u!65 &1738979514
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26263,6 +26355,12 @@ Prefab:
       propertyPath: m_Name
       value: Wood (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114132785713049116, guid: 231764b9ab6c65b47b0deb7973be2077,
+        type: 2}
+      propertyPath: itemIcon
+      value: 
+      objectReference: {fileID: 21300036, guid: 77ba41eec0dfba44a843d43c6f5e5ecd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 231764b9ab6c65b47b0deb7973be2077, type: 2}
   m_IsPrefabAsset: 0
@@ -26699,6 +26797,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: 160, y: -160, z: 0}
+  inventoryIndex: 26
 --- !u!65 &1916327265
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26895,6 +26994,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: 0, y: -160, z: 0}
+  inventoryIndex: 1
 --- !u!65 &1920316137
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27212,6 +27312,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: 0, y: -160, z: 0}
+  inventoryIndex: 0
 --- !u!65 &1949806270
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27346,6 +27447,7 @@ MonoBehaviour:
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
   tooltipOffset: {x: 0, y: -160, z: 0}
+  inventoryIndex: 4
 --- !u!65 &1964441096
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27401,6 +27503,12 @@ Prefab:
       propertyPath: m_Name
       value: Stone (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114161440377173384, guid: 0f818c00c8b4cb648a15b24ac949edce,
+        type: 2}
+      propertyPath: itemIcon
+      value: 
+      objectReference: {fileID: 21300110, guid: 77ba41eec0dfba44a843d43c6f5e5ecd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f818c00c8b4cb648a15b24ac949edce, type: 2}
   m_IsPrefabAsset: 0
@@ -27603,7 +27711,8 @@ MonoBehaviour:
   overMat: {fileID: 2100000, guid: 6096ec2864bc3cb4a8596f7b7e881ef2, type: 2}
   BaseTooltip: {fileID: 1918516221103568, guid: eadab39b421bb2c45aeceea92eb87bb1,
     type: 2}
-  tooltipOffset: {x: 0, y: -160, z: 0}
+  tooltipOffset: {x: 25, y: -160, z: 0}
+  inventoryIndex: 22
 --- !u!65 &1998343427
 BoxCollider:
   m_ObjectHideFlags: 0
