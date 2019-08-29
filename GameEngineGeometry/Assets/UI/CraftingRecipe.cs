@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 
+//Scriptable object with recipe data.
+
 [CreateAssetMenu(fileName = "Empty_Recipe", menuName = "Crafting Recipe", order = 1)]
 public class CraftingRecipe : ScriptableObject
 {

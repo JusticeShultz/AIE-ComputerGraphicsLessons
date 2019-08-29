@@ -5,6 +5,6 @@ using UnityEngine.UI;
 
 public class TooltipData : MonoBehaviour
 {
-    public Text nameObject;
-    public Text flavorObject;
+    public Text nameObject; //The objects tooltip name.
+    public Text flavorObject; //The objects flavor text.
 }

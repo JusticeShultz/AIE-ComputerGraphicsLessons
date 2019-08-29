@@ -8,6 +8,7 @@ public class DestroyTarget : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        //This will destroy the target and spawn the debris object.
         if (collision.gameObject.name.Contains("Arrow"))
         {
             Instantiate(DestroyedState, transform.position, transform.rotation);

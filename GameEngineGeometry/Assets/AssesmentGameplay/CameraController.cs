@@ -10,6 +10,7 @@ public class CameraController : MonoBehaviour
 
     void Update ()
     {
+        //Very simple lerp to position with offset.
         transform.position = Vector3.Lerp(transform.position, Target.transform.position + Offset, FollowSpeed);
 	}
 }
