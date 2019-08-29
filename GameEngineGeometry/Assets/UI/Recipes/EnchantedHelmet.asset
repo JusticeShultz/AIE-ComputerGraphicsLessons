@@ -11,13 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecdb2d3bce4628b4292aca7a58bdfa43, type: 3}
   m_Name: EnchantedHelmet
   m_EditorClassIdentifier: 
-  resultName: Enchanted Helmet
-  resultIcon: {fileID: 21300244, guid: 142751ade1f2e864c984407f94f05993, type: 3}
+  resultName: Enchanted Alchemical Chestpiece
+  resultIcon: {fileID: 21300094, guid: 80261218f9039ea47b2827cf1fa555e6, type: 3}
   topLeft: NA
   topMiddle: NA
   topRight: NA
   middleLeft: Enchanted Scroll
-  middle: Alchemical Helmet
+  middle: Alchemical Chestpiece
   middleRight: NA
   bottomLeft: NA
   bottomMiddle: NA

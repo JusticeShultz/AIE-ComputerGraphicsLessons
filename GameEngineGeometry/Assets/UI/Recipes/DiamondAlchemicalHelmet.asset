@@ -11,13 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecdb2d3bce4628b4292aca7a58bdfa43, type: 3}
   m_Name: DiamondAlchemicalHelmet
   m_EditorClassIdentifier: 
-  resultName: Diamond Alchemical Helmet
-  resultIcon: {fileID: 21300268, guid: 142751ade1f2e864c984407f94f05993, type: 3}
+  resultName: Diamond Alchemical Chestpiece
+  resultIcon: {fileID: 21300190, guid: 80261218f9039ea47b2827cf1fa555e6, type: 3}
   topLeft: NA
   topMiddle: NA
   topRight: NA
   middleLeft: Refined Diamond
-  middle: Enchanted Helmet
+  middle: Enchanted Alchemical Chestpiece
   middleRight: NA
   bottomLeft: NA
   bottomMiddle: NA

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: StaffBase
   m_EditorClassIdentifier: 
   resultName: Base Staff
-  resultIcon: {fileID: 21300370, guid: 77ba41eec0dfba44a843d43c6f5e5ecd, type: 3}
+  resultIcon: {fileID: 21300174, guid: 80261218f9039ea47b2827cf1fa555e6, type: 3}
   topLeft: NA
   topMiddle: Wood
   topRight: NA

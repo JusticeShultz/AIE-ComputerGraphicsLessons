@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: EnchantedStaff
   m_EditorClassIdentifier: 
   resultName: Enchanted Staff
-  resultIcon: {fileID: 21300392, guid: 77ba41eec0dfba44a843d43c6f5e5ecd, type: 3}
+  resultIcon: {fileID: 21300124, guid: 80261218f9039ea47b2827cf1fa555e6, type: 3}
   topLeft: NA
   topMiddle: Refined Diamond
   topRight: NA
@@ -20,6 +20,6 @@ MonoBehaviour:
   middle: Base Staff
   middleRight: NA
   bottomLeft: NA
-  bottomMiddle: NA
+  bottomMiddle: Enchanted Scroll
   bottomRight: NA
   itemFlavor: Provides a human the ability to channel magic.

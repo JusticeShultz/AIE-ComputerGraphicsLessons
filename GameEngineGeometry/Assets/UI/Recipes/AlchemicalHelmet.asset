@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecdb2d3bce4628b4292aca7a58bdfa43, type: 3}
   m_Name: AlchemicalHelmet
   m_EditorClassIdentifier: 
-  resultName: Alchemical Helmet
-  resultIcon: {fileID: 21300234, guid: 142751ade1f2e864c984407f94f05993, type: 3}
+  resultName: Alchemical Chestpiece
+  resultIcon: {fileID: 21300022, guid: 80261218f9039ea47b2827cf1fa555e6, type: 3}
   topLeft: Alchemical Stone
   topMiddle: Alchemical Stone
   topRight: NA

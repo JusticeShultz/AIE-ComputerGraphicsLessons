@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: EnchantedSword
   m_EditorClassIdentifier: 
   resultName: Enchanted Sword
-  resultIcon: {fileID: 21300206, guid: 142751ade1f2e864c984407f94f05993, type: 3}
+  resultIcon: {fileID: 21300134, guid: 80261218f9039ea47b2827cf1fa555e6, type: 3}
   topLeft: NA
   topMiddle: NA
   topRight: NA

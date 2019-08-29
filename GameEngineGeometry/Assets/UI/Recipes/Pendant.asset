@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Pendant
   m_EditorClassIdentifier: 
   resultName: Pendant
-  resultIcon: {fileID: 21300022, guid: 142751ade1f2e864c984407f94f05993, type: 3}
+  resultIcon: {fileID: 21300254, guid: 77ba41eec0dfba44a843d43c6f5e5ecd, type: 3}
   topLeft: NA
   topMiddle: String
   topRight: NA
