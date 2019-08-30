@@ -38,6 +38,13 @@ bool context::init(int width, int height, const char * title)
 
 	glClearColor(0.25f, 0.25f, 0.25f, 1.0f);
 
+	glEnable(GL_BLEND);
+	glEnable(GL_DEPTH_TEST);
+	glEnable(GL_CULL_FACE);
+
+	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+	glDepthFunc(GL_LEQUAL);
+
 	return true;
 }
 

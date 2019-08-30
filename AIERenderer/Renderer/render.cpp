@@ -10,6 +10,8 @@
 #include "glm/gtc/type_ptr.hpp"
 #include "stb/stb_image.h"
 #include <iostream>
+#define TINYOBJLOADER_IMPLEMENTATION
+#include "tinyObj/tiny_obj_loader.h"
 
 geometry makeGeometry(vertex * verts, size_t vertCount, unsigned * indices, size_t indexCount)
 {
@@ -32,10 +34,14 @@ geometry makeGeometry(vertex * verts, size_t vertCount, unsigned * indices, size
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, indexCount * sizeof(unsigned), indices, GL_STATIC_DRAW);
 
 	//describe vertex data
-	glEnableVertexAttribArray(0);
+	glEnableVertexAttribArray(0); //position
 	glVertexAttribPointer(0, 4, GL_FLOAT, GL_FALSE, sizeof(vertex), (void*)0);
-	glEnableVertexAttribArray(1);
-	glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, sizeof(vertex), (void*)sizeof(vertex::pos));
+
+	glEnableVertexAttribArray(1); //normals
+	glVertexAttribPointer(1, 4, GL_FLOAT, GL_FALSE, sizeof(vertex), (void*)16);
+
+	glEnableVertexAttribArray(2); //UVs
+	glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, sizeof(vertex), (void*)32);
 
 	//unbind buffers (in a SPECIFIC order)
 	glBindVertexArray(0);
@@ -118,6 +124,10 @@ void draw(const shader &shad, const geometry &geo)
 	glDrawElements(GL_TRIANGLES, geo.size, GL_UNSIGNED_INT, 0);
 }
 
+void setUniform(const shader &shad, GLuint location, const glm::vec3 &value)
+{
+	glProgramUniform3fv(shad.program, location, 1, glm::value_ptr(value));
+}
 void setUniform(const shader &shad, GLuint location, const glm::mat4 &value)
 {
 	glProgramUniformMatrix4fv(shad.program, location, 1, GL_FALSE, glm::value_ptr(value));
@@ -186,4 +196,73 @@ texture loadTexture(const char * imagePath)
 	stbi_image_free(rawPixelData);
 
 	return tex;
+}
+
+geometry loadModel(std::string inputfile)
+{
+	std::string warn;
+	std::string err;
+
+	tinyobj::attrib_t attrib;
+	std::vector<tinyobj::shape_t> shapes;
+	std::vector<tinyobj::material_t> materials;
+
+	bool ret = tinyobj::LoadObj(&attrib, &shapes, &materials, &warn, &err, inputfile.c_str());
+
+	if (!warn.empty()) 
+	{
+		std::cout << warn << std::endl;
+	}
+
+	if (!err.empty()) 
+	{
+		std::cerr << err << std::endl;
+	}
+
+	std::vector<vertex> verts;
+	std::vector<unsigned> indices;
+
+	
+	for (size_t s = 0; s < shapes.size(); s++)
+	{
+		// Loop over faces(polygon)
+		size_t index_offset = 0;
+		unsigned counter = 0;
+		for (size_t f = 0; f < shapes[s].mesh.num_face_vertices.size(); f++)
+		{
+			int fv = shapes[s].mesh.num_face_vertices[f];
+
+			// Loop over vertices in the face.
+			for (size_t v = 0; v < fv; v++) {
+				// access to vertex
+				tinyobj::index_t idx = shapes[s].mesh.indices[index_offset + v];
+				
+				//vertices
+				tinyobj::real_t vx = attrib.vertices[3 * idx.vertex_index + 0];
+				tinyobj::real_t vy = attrib.vertices[3 * idx.vertex_index + 1];
+				tinyobj::real_t vz = attrib.vertices[3 * idx.vertex_index + 2];
+				
+				//normals
+				tinyobj::real_t nx = attrib.normals[3 * idx.normal_index + 0];
+				tinyobj::real_t ny = attrib.normals[3 * idx.normal_index + 1];
+				tinyobj::real_t nz = attrib.normals[3 * idx.normal_index + 2];
+
+				//tangents?
+				//tinyobj::real_t tanx = attrib.[3 * idx.normal_index + 0];
+
+				//texture cords
+				tinyobj::real_t tx = attrib.texcoords[2 * idx.texcoord_index + 0];
+				tinyobj::real_t ty = attrib.texcoords[2 * idx.texcoord_index + 1];
+
+				verts.emplace_back(vertex{ {vx, vy, vz, 1.0f}, {nx, ny, nz, 1.0f}, {tx, ty} });
+				indices.emplace_back(counter++);
+			}
+			index_offset += fv;
+
+			// per-face material
+			shapes[s].mesh.material_ids[f];
+		}
+	}
+
+	return makeGeometry(verts.data(), verts.size(), indices.data(), indices.size());
 }

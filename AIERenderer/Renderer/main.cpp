@@ -11,14 +11,14 @@
 int main()
 {
 	context game;
-	game.init(640, 480, "Thonk");
+	game.init(1600, 900, "Black magic");
 
-	vertex triVerts[] =
+	/*vertex triVerts[] =
 	{
-		{ { -.5f, -.5f, 0, 1 }, {0.f,0.f}  },
-		{ {  .5f, -.5f, 0, 1 }, {1.f, 0.f} },
-		{ {   0,   .5f, 0, 1 }, {.5f, 1.f} }
-	};
+		{ { -.5f, -.5f, 0, 1 }, {0,0,1,0}, {0.f,0.f}  },
+		{ {  .5f, -.5f, 0, 1 }, {0,0,1,0}, {1.f, 0.f} },
+		{ {   0,   .5f, 0, 1 }, {0,0,1,0}, {.5f, 1.f} }
+	};*/
 
 	unsigned int triIndices[] = { 0, 1, 2 };
 
@@ -34,14 +34,23 @@ int main()
 		const char * basicVert = content2.c_str();
 	#pragma endregion
 
-	geometry triangle = makeGeometry(triVerts, 3, triIndices, 3);
+	//geometry triangle = makeGeometry(triVerts, 3, triIndices, 3);
+
+	geometry spear = loadModel("Robot.obj");
+
 	shader basicShad = makeShader(basicVert, basicFrag);
 	//int vertexColorLocation = glGetUniformLocation(basicShad.program, "modColor");
 
 	glm::mat4 triModel = glm::identity<glm::mat4>();
-	glm::mat4 camProj = glm::perspective(glm::radians(50.f), 640.f / 480.f, 0.1f, 100.0f);
+	glm::mat4 camProj = glm::perspective(glm::radians(50.f), 1600.f / 900.f, 0.1f, 100.0f);
 
-	texture triTex = loadTexture("tex.tga");
+	texture triTex = loadTexture("Robot.PNG");
+	texture triEmissive = loadTexture("RobotEmissive.PNG");
+	texture triNormalMap = loadTexture("RobotNormals.PNG");
+	texture triSpecular = loadTexture("RobotSpecular.PNG");
+
+	light sun;
+	sun.direction = glm::vec4{ -1, 0, 0, 1 };
 
 	while (!game.shouldClose())
 	{
@@ -49,13 +58,18 @@ int main()
 		game.clear();
 
 		float timeValue = game.getTime();
-		glm::mat4 camView = glm::lookAt(glm::vec3(0, 0, -10), glm::vec3(sin(timeValue * 3), cos(timeValue * 3), 0), glm::vec3(0, 1, 0));
+		//glm::mat4 camView = glm::lookAt(glm::vec3(0, 0, -10), glm::vec3(sin(timeValue * 3), cos(timeValue * 3), 0), glm::vec3(0, 1, 0));
+		glm::mat4 camView = glm::lookAt(glm::vec3(0, 0, -10), glm::vec3(0, 0, 0), glm::vec3(0, 1, 0));
 
-		triModel = glm::rotate(triModel, glm::radians(15.f), glm::vec3(0, 1, 0));
+		triModel = glm::rotate(triModel, glm::radians(1.f), glm::vec3(0, 1, 0));
 		setUniform(basicShad, 0, camProj);
 		setUniform(basicShad, 1, camView);
 		setUniform(basicShad, 2, triModel);
 		setUniform(basicShad, 3, triTex, 0);
+		setUniform(basicShad, 4, sun.direction);
+		setUniform(basicShad, 5, triEmissive, 1);
+		setUniform(basicShad, 6, triNormalMap, 2);
+		setUniform(basicShad, 7, triSpecular, 3);
 		
 		/*float timeValue = game.getTime();
 		float redValue = sin(timeValue * 3) / 2.0f + 0.5f;
@@ -63,7 +77,7 @@ int main()
 		float blueValue = sin(timeValue * 4) / 4.0f + 0.5f;
 		glUniform4f(vertexColorLocation, redValue, greenValue, blueValue, 1.0f);*/
 
-		draw(basicShad, triangle);
+		draw(basicShad, spear);
 
 		//assert(glGetError() == GL_NO_ERROR);
 	}
