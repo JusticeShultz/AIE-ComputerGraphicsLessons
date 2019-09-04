@@ -38,7 +38,7 @@ public class InventoryToggle : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 //Iterate through each inventory slot.
-                for (int i = 0; i < 29; i++)
+                for (int i = 0; i < 30; i++)
                 {
                     //If the inventory slot is empty and the slot isn't part of the crafting window.
                     if (InventorySlot.inventorySlots[i].ItemName == "NA" && InventorySlot.inventorySlots[i].transform.parent.name != "CraftingWindow")

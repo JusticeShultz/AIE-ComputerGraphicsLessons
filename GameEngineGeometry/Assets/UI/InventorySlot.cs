@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class InventorySlot : MonoBehaviour
 {
     public static bool HoldingObject = false; //Is there an inventory object held by the player?
-    public static InventorySlot[] inventorySlots = new InventorySlot[29]; //Global array of our inventory slots.
+    public static InventorySlot[] inventorySlots = new InventorySlot[30]; //Global array of our inventory slots.
 
     public Image sprite; //The image that the items sprite will display to.
     public GameObject canvas; //The canvas object that we are working with.
@@ -98,7 +98,7 @@ public class InventorySlot : MonoBehaviour
                     if (Crafting.CanCraft && gameObject.name == "Result")
                     {
                         //Iterate through every slot.
-                        for (int i = 0; i < 29; i++)
+                        for (int i = 0; i < 30; i++)
                         {
                             //Find an empty inventory slot.
                             if (inventorySlots[i].ItemName == "NA")
@@ -142,7 +142,7 @@ public class InventorySlot : MonoBehaviour
             if (IsDragging)
             {
                 //Iterate through all of the inventory slots.
-                for (int i = 0; i < 29; i++)
+                for (int i = 0; i < 30; i++)
                 {
                     //Skip the slot named "Result".
                     if (inventorySlots[i].name == "Result") continue;
@@ -224,6 +224,14 @@ public class InventorySlot : MonoBehaviour
 
             //Set the objects color to white. (Non-transparent)
             sprite.color = Color.white;
+        }
+
+        if(inventoryIndex == 29)
+        {
+            //If this is the trash slot, remove the item.
+            ItemName = "NA";
+            ItemFlavor = "NA";
+            ItemIcon = null;
         }
     }
 
