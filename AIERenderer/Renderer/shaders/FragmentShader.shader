@@ -32,14 +32,14 @@ out vec4 vertColor;
 
 void main() 
 {
-	vec4 normals = texture(normal, vUV);
-	vec4 normalMap = normalize(normals * 2.0 - 1.0);
-	float d = max(0, dot(normalMap.xyz, -lightDir));
+	//vec4 normals = texture(normal, vUV);
+	//vec4 normalMap = normalize(normals * 2.0 - 1.0);
+	float d = max(0, dot(vNormal, -lightDir));
 	vec4 diffuse = d * vec4(1, 1, 1, 1);
 	vec4 base = texture(albedo, vUV);
 	vec4 emission = texture(emissive, vUV);
 	vec4 specularMap = texture(specular, vUV);
 
 	//vertColor = vec4(normalMap.xyz,1);
-	vertColor = vec4((diffuse * (specularMap + base)).xyz, 1) + (emission * model);
+	vertColor = vec4((diffuse * (specularMap + base)).xyz, 1) + emission; //(emission * model);
 };
