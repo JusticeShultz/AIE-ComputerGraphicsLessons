@@ -25,8 +25,8 @@ public class PlayerController : MonoBehaviour
 
         //Apply force based on aim state and the horizontal and vertical values.
         if (Aim <= 0.45f)
-            rigidbody.AddForce((new Vector3(horizontal, 0, 0) + new Vector3(0, 0, vertical)) * MovementSpeed, ForceMode.VelocityChange);
-        else rigidbody.AddForce((new Vector3(horizontal, 0, 0) + new Vector3(0, 0, vertical)) * MovementSpeedAiming, ForceMode.VelocityChange);
+            rigidbody.AddForce(Vector3.Normalize((new Vector3(horizontal, 0, 0) + new Vector3(0, 0, vertical))) * MovementSpeed, ForceMode.VelocityChange);
+        else rigidbody.AddForce(Vector3.Normalize((new Vector3(horizontal, 0, 0) + new Vector3(0, 0, vertical))) * MovementSpeedAiming, ForceMode.VelocityChange);
 
         //If we are moving, update the players rotation.
         if (rigidbody.velocity.magnitude > 0.5f)

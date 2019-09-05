@@ -287,6 +287,7 @@ public class MeshGenerator : MonoBehaviour
         }
     }
 
+#if UNITY_EDITOR
     private void OnDrawGizmos()
     {
         TimeDrawn += Time.deltaTime;
@@ -309,4 +310,5 @@ public class MeshGenerator : MonoBehaviour
             }
         }
     }
+#endif
 }
