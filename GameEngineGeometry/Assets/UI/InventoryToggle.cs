@@ -19,7 +19,8 @@ public class InventoryToggle : MonoBehaviour
 
 	void Start ()
     {
-        //Set the static collectable back to its default state.
+        //Set the static variables back to their default states.
+        InventoryOpened = false;
         collectable = null;
     }
 

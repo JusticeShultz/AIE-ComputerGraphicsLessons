@@ -18,10 +18,11 @@ public class FPS_Controller : MonoBehaviour
     public float GunShotCooldown = 1.0f;
     private float ShotCooldown = 0f;
     private float distToGround;
+    private float JumpTime = 0f;
 
     private void Start()
     {
-        distToGround = GetComponent<CapsuleCollider>().height * 0.75f;
+        distToGround = GetComponent<CapsuleCollider>().height * 0.7f;
     }
 
     void Update()
@@ -50,18 +51,16 @@ public class FPS_Controller : MonoBehaviour
             //Do damage raycheck here
         }
 
-        if(Input.GetButtonDown("Jump") && IsGrounded())
+        if(Input.GetButton("Jump") && JumpTime <= 0.09f)
         {
+            JumpTime += Time.deltaTime;
             rigidbody.AddForce(Vector3.up * JumpHeight, ForceMode.VelocityChange);
         }
 
         if (rigidbody.velocity.y < 0)
-        {
-            rigidbody.velocity += Vector3.up * Physics.gravity.y * (FallMultiplier - 1) * Time.deltaTime;
-        } else if(!Input.GetButton("Jump"))
-        {
-            rigidbody.velocity += Vector3.up * Physics.gravity.y * (FallMultiplier - 1) * Time.deltaTime;
-        }
+            rigidbody.velocity += Vector3.up * Physics.gravity.y * (FallMultiplier * 1.7f) * Time.deltaTime;
+
+        if (IsGrounded()) JumpTime = 0;
     }
 
     bool IsGrounded()
