@@ -5,6 +5,7 @@ using UnityEngine;
 public class DestroyTarget : MonoBehaviour
 {
     public GameObject DestroyedState;
+    public bool DestroyParent = true;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -13,7 +14,10 @@ public class DestroyTarget : MonoBehaviour
         {
             Instantiate(DestroyedState, transform.position, transform.rotation);
             Destroy(collision.gameObject);
-            Destroy(gameObject.transform.parent.gameObject);
+
+            if(DestroyParent)
+                Destroy(gameObject.transform.parent.gameObject);
+            else Destroy(gameObject);
         }
     }
 }

@@ -25,7 +25,7 @@ public class Collectable : MonoBehaviour
     public string itemFlavor = "It's a thingy that does nothing"; //The flavor of the collectable.
     public Sprite itemIcon; //The icon of the collectable.
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         //If the collided with object is the player give it some data about this object.
         if (other.gameObject.name == "Player")

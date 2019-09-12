@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public static GameObject player;
+    public static PlayerController controller;
+
+    public float Health = 10f;
     public float MovementSpeed = 10f; //The speed the player can move at when not aiming.
     public float MovementSpeedAiming = 5f; //The speed the player can move at when aiming.
     public new Rigidbody rigidbody; //The players rigidbody.
@@ -19,9 +23,26 @@ public class PlayerController : MonoBehaviour
     private float AimNormalizedTime { get { return Mathf.Clamp(Aim / AimDrawDuration, 0, 1); } } //Grab the normalized value of Aim.
     private float Horizontal = 0; //The value given from pressing left or right inputs.
     private float Vertical = 0; //The value given from pressing up or down inputs.
+    private bool doDeathOnce = false;
+
+    private void Awake()
+    {
+        player = gameObject;
+        controller = this;
+    }
 
     void FixedUpdate()
     {
+        if (Health <= 0 && !doDeathOnce)
+        {
+            doDeathOnce = true;
+            animator.SetTrigger("Death");
+            rigidbody.isKinematic = true;
+            transform.position = new Vector3(transform.position.x, -0.33f, transform.position.z);
+        }
+
+        if (doDeathOnce) return;
+
         //Grab the horizontal and vertical input axesis.
         Horizontal = Input.GetAxis("Horizontal");
         Vertical = Input.GetAxis("Vertical");
@@ -48,6 +69,8 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (doDeathOnce) return;
+
         //Determine the level of aiming and set it.
         //0 to 1, where 0 represents the beginning of the aim, and 1 is the end.
         if (Input.GetMouseButton(0))
@@ -79,5 +102,10 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("Aiming", AimParameterCurve.Evaluate(AimNormalizedTime));
         //Set the movement value in the animator.
         animator.SetFloat("MovementSpeed", rigidbody.velocity.magnitude * 0.16f);
+    }
+
+    public static void TakeDamage(float damage)
+    {
+        controller.Health -= damage;
     }
 }

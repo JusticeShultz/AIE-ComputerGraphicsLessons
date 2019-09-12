@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23513922844207396}
   - component: {fileID: 65925384634610702}
   - component: {fileID: 54819996488694068}
+  - component: {fileID: 114011294967933574}
   m_Layer: 0
   m_Name: Arrow
   m_TagString: Untagged
@@ -274,6 +275,18 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &114011294967933574
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1041197174893988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a194bb88e56b24e94f79ddaa85da06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ArrowDeath: {fileID: 1035767408712824, guid: d89a0ae3ce01b9f46a9c930f91df2b5f, type: 2}
 --- !u!198 &198529405872324496
 ParticleSystem:
   m_ObjectHideFlags: 1

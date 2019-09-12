@@ -162,7 +162,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1675876870656108}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 10.974316, y: 1.86, z: -1.6730995}
+  m_LocalPosition: {x: 32.25279, y: 0.329, z: 15.594571}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4992407337099984}
@@ -181,7 +181,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1247290518216328}
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 0.351, z: 0}
+  m_LocalPosition: {x: 0, y: 0.351, z: -0.318}
   m_LocalScale: {x: 0.5000001, y: 1.3585129, z: 0.50000024}
   m_Children: []
   m_Father: {fileID: 4290187799938392}
@@ -499,8 +499,8 @@ Rigidbody:
   m_GameObject: {fileID: 1274982020143500}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 4
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -514,8 +514,8 @@ Rigidbody:
   m_GameObject: {fileID: 1186081141973740}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 4
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -529,8 +529,8 @@ Rigidbody:
   m_GameObject: {fileID: 1983470869426204}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 4
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -544,8 +544,8 @@ Rigidbody:
   m_GameObject: {fileID: 1107741381055560}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 4
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -559,8 +559,8 @@ Rigidbody:
   m_GameObject: {fileID: 1247290518216328}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 6
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -574,8 +574,8 @@ Rigidbody:
   m_GameObject: {fileID: 1581514970619970}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 4
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
