@@ -19,10 +19,10 @@ public class InventorySlot : MonoBehaviour
     public Vector3 tooltipOffset = Vector3.zero; //The offset the tooltip should be from this object.
     public int inventoryIndex = 0; //The index point in the inventorySlots this object belongs.
 
-    private bool IsHovered = false; //Is this game object hovered?
-    private bool IsDragging = false; //Is this game object being dragged?
-    private bool SpecialHover = false; //Is this game object an exception to the rest?(This helps with a bug of not being able to be picked up once released)
-    private GameObject tooltip; //The current instantiated tooltip. Will be null unless the object is hovered.
+    public bool IsHovered = false; //Is this game object hovered?
+    public bool IsDragging = false; //Is this game object being dragged?
+    public bool SpecialHover = false; //Is this game object an exception to the rest?(This helps with a bug of not being able to be picked up once released)
+    public GameObject tooltip; //The current instantiated tooltip. Will be null unless the object is hovered.
 
     private void Start()
     {

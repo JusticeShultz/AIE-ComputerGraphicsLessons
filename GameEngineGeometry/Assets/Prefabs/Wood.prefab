@@ -127,8 +127,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cf3254b0845e904fbb8c38754deee8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsShrine: 0
   itemName: Wood
-  itemFlavor: A common material, often take from trees.
+  itemFlavor: A common material used for most standard structure building.
   itemIcon: {fileID: 21300036, guid: 77ba41eec0dfba44a843d43c6f5e5ecd, type: 3}
 --- !u!135 &135367706859245206
 SphereCollider:

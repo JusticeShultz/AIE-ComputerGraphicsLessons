@@ -115,7 +115,7 @@ public class PlayerController : MonoBehaviour
 
         //Determine the level of aiming and set it.
         //0 to 1, where 0 represents the beginning of the aim, and 1 is the end.
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0)) //|| Input.GetAxis("PrimaryAttack") > 0.1f)
             Aim = Mathf.Min(AimDrawDuration, Aim + Time.deltaTime);
         else Aim = Mathf.Max(0.0f, Aim - Time.deltaTime);
 

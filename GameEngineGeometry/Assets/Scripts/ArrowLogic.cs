@@ -20,6 +20,11 @@ public class ArrowLogic : MonoBehaviour
 
     private void OnDestroy()
     {
+        #pragma warning disable CS1692
+        #pragma warning disable CS0618
+        if (Application.isPlaying && !Application.isLoadingLevel)
+        #pragma warning restore CS0618
+
         Instantiate(ArrowDeath, transform.position, transform.rotation);
     }
 }

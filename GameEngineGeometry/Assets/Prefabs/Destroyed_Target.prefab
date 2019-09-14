@@ -162,7 +162,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1675876870656108}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 32.25279, y: 0.329, z: 15.594571}
+  m_LocalPosition: {x: 156.39093, y: -0.0902527, z: -145.6904}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4992407337099984}
@@ -676,8 +676,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cf3254b0845e904fbb8c38754deee8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsShrine: 0
   itemName: Wood
-  itemFlavor: A common material, often take from trees.
+  itemFlavor: A common material used for most standard structure building.
   itemIcon: {fileID: 21300036, guid: 77ba41eec0dfba44a843d43c6f5e5ecd, type: 3}
 --- !u!135 &135298229760307148
 SphereCollider:

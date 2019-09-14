@@ -9,18 +9,21 @@ public class CollectableData
     public string itemFlavor = "It's a thingy that does nothing";
     public Sprite itemIcon;
     public GameObject _gameObject;
+    public bool isShrine = false;
 
-    public CollectableData(string _itemName, string _itemFlavor, Sprite _itemIcon, GameObject _object)
+    public CollectableData(string _itemName, string _itemFlavor, Sprite _itemIcon, GameObject _object, bool _isShrine = false)
     {
         itemName = _itemName;
         itemFlavor = _itemFlavor;
         itemIcon = _itemIcon;
         _gameObject = _object;
+        isShrine = _isShrine;
     }
 }
 
 public class Collectable : MonoBehaviour
 {
+    public bool IsShrine = false;
     public string itemName = "NA"; //The name of the collectable.
     public string itemFlavor = "It's a thingy that does nothing"; //The flavor of the collectable.
     public Sprite itemIcon; //The icon of the collectable.
@@ -29,7 +32,12 @@ public class Collectable : MonoBehaviour
     {
         //If the collided with object is the player give it some data about this object.
         if (other.gameObject.name == "Player")
-            InventoryToggle.collectable = new CollectableData(itemName, itemFlavor, itemIcon, gameObject);
+        {
+            if(IsShrine)
+                InventoryToggle.collectable = new CollectableData(itemName, itemFlavor, itemIcon, gameObject, true);
+            else
+                InventoryToggle.collectable = new CollectableData(itemName, itemFlavor, itemIcon, gameObject);
+        }
     }
 
     private void OnTriggerExit(Collider other)
