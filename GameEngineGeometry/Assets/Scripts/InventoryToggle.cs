@@ -10,6 +10,7 @@ public class InventoryToggle : MonoBehaviour
     public static bool InventoryOpened = false; //Is the inventory opened or not.
 
     public GameObject InventoryObject; //Reference to the inventory object.
+    public GameObject MenuObject; //Reference to the menu object.
     public GameObject InventoryCamera; //Reference to the inventory camera.
     public GameObject GameCamera; //Reference to the game camera.
 
@@ -17,6 +18,7 @@ public class InventoryToggle : MonoBehaviour
     public Text pickupName; //Reference to the pickup text on the pickup tooltip.
     
     private bool InventoryToggled = false; //If the inventory toggled or not.
+    private bool EscapeToggeled = false; //If the escape key is toggled or not.
     private bool DoGameOverOnce = false;
 
 	void Start ()
@@ -31,6 +33,10 @@ public class InventoryToggle : MonoBehaviour
         //If there is a valid tooltip the pickup tooltip object will enable itself or disable itself.
         PickupTooltip.SetActive(collectable != null);
 
+        if (Input.GetKeyDown(KeyCode.Escape)) EscapeToggeled = !EscapeToggeled;
+
+        MenuObject.SetActive(EscapeToggeled);
+        
         //If there is a collectable object.
         if (collectable != null)
         {

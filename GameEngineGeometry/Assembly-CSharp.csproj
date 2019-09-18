@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\CraftingRecipe.cs" />
     <Compile Include="Assets\Scripts\DealDamage.cs" />
     <Compile Include="Assets\Scripts\DestroyTarget.cs" />
+    <Compile Include="Assets\Scripts\GrassLOD.cs" />
     <Compile Include="Assets\Scripts\Guard.cs" />
     <Compile Include="Assets\Scripts\GuardDeath.cs" />
     <Compile Include="Assets\Scripts\InventorySlot.cs" />
@@ -102,6 +103,12 @@
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/Users/s189081/Documents/UnityShit/GraphicsTime/GameEngineGeometry/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>C:/Users/s189081/Documents/UnityShit/GraphicsTime/GameEngineGeometry/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>C:/Users/s189081/Documents/UnityShit/GraphicsTime/GameEngineGeometry/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/s189081/Documents/UnityShit/GraphicsTime/GameEngineGeometry/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
