@@ -26,9 +26,12 @@ public class WayshrineSystem : MonoBehaviour
 
     void Start ()
     {
-		if(shrinePoint == Vector3.zero) shrinePoint = new Vector3(0, 1.236f, 0);
+        if (_Mod == Mod.None)
+        {
+            if (shrinePoint == Vector3.zero) shrinePoint = new Vector3(0, 1.236f, 0);
 
-        PlayerController.player.transform.position = shrinePoint;
+            PlayerController.player.transform.position = shrinePoint;
+        }
     }
 
     private void Update()
