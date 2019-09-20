@@ -37,7 +37,7 @@ public class FPS_Controller : MonoBehaviour
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
 
-        rigidbody.AddForce(Vector3.Normalize((h * forward.transform.right) + (v * forward.transform.forward)) * MovementSpeed, ForceMode.Acceleration);
+        rigidbody.AddForce(Vector3.Normalize((h * forward.transform.right) + (v * forward.transform.forward)) * MovementSpeed);
 
         animator.SetFloat("MoveSpeed", rigidbody.velocity.magnitude * 0.09f);
         animator.SetBool("Moving", rigidbody.velocity.magnitude > 0.25);
