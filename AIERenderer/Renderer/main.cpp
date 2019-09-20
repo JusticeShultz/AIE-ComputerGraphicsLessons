@@ -11,7 +11,7 @@
 int main()
 {
 	context game;
-	game.init(1600, 900, "Black magic");
+	game.init(1600, 900, "Computer Graphics Assessment");
 
 	/*vertex triVerts[] =
 	{
@@ -23,12 +23,12 @@ int main()
 	unsigned int triIndices[] = { 0, 1, 2 };
 
 	#pragma region Load shaders from file
-		std::ifstream ifs("shaders/FragmentShader.shader");
+		std::ifstream ifs("resources/shaders/FragmentShader.shader");
 		std::string content1((std::istreambuf_iterator<char>(ifs)),
 			(std::istreambuf_iterator<char>()));
 		const char * basicFrag = content1.c_str();
 
-		std::ifstream iffs("shaders/VertexShader.shader");
+		std::ifstream iffs("resources/shaders/VertexShader.shader");
 		std::string content2((std::istreambuf_iterator<char>(iffs)),
 			(std::istreambuf_iterator<char>()));
 		const char * basicVert = content2.c_str();
@@ -36,7 +36,7 @@ int main()
 
 	//geometry triangle = makeGeometry(triVerts, 3, triIndices, 3);
 
-	geometry spear = loadModel("Robot.obj");
+	geometry spear = loadModel("resources/Robot.obj");
 
 	shader basicShad = makeShader(basicVert, basicFrag);
 	//int vertexColorLocation = glGetUniformLocation(basicShad.program, "modColor");
@@ -44,10 +44,10 @@ int main()
 	glm::mat4 triModel = glm::identity<glm::mat4>();
 	glm::mat4 camProj = glm::perspective(glm::radians(50.f), 1600.f / 900.f, 0.1f, 100.0f);
 
-	texture triTex = loadTexture("Robot.PNG");
-	texture triEmissive = loadTexture("RobotEmissive.PNG");
-	texture triNormalMap = loadTexture("RobotNormals.PNG");
-	texture triSpecular = loadTexture("RobotSpecular.PNG");
+	texture triTex = loadTexture("resources/Robot.PNG");
+	texture triEmissive = loadTexture("resources/RobotEmissive.PNG");
+	texture triNormalMap = loadTexture("resources/RobotNormals.PNG");
+	texture triSpecular = loadTexture("resources/RobotSpecular.PNG");
 
 	light sun;
 	sun.direction = glm::vec4{ -1, 0, 0, 1 };
