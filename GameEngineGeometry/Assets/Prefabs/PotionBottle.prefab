@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33910228860915202}
   - component: {fileID: 23354785083651658}
   - component: {fileID: 135833991960185532}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 4481199336379006}
   - component: {fileID: 33618687089794640}
   - component: {fileID: 23045537171103262}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pSphere2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 4714925202478712}
   - component: {fileID: 33543694340776462}
   - component: {fileID: 23491878981798618}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pSphere1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 135225794997253350}
   - component: {fileID: 54091813151024140}
   - component: {fileID: 114970901804806242}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PotionBottle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,6 +289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cf3254b0845e904fbb8c38754deee8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsShrine: 0
   itemName: Refinement Oil
   itemFlavor: A substance with a high magical potency.
   itemIcon: {fileID: 21300180, guid: 77ba41eec0dfba44a843d43c6f5e5ecd, type: 3}

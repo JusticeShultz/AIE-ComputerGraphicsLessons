@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: aab489d953558b84d9e4788f96dcf6e1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bm-lamp-post
+    100002: bm-lamp-post.001
+    100004: bm-lamp-post.002
+    100006: bm-lamp-post.003
+    100008: Circle
+    100010: Circle.001
+    100012: Columna_L
+    100014: Columna_R
+    100016: //RootNode
+    100018: Forge_C
+    100020: Forge_D
+    100022: Forge_I
+    100024: Magic_1
+    100026: Magic_2
+    100028: Vine_L
+    100030: Vine_R
+    400000: bm-lamp-post
+    400002: bm-lamp-post.001
+    400004: bm-lamp-post.002
+    400006: bm-lamp-post.003
+    400008: Circle
+    400010: Circle.001
+    400012: Columna_L
+    400014: Columna_R
+    400016: //RootNode
+    400018: Forge_C
+    400020: Forge_D
+    400022: Forge_I
+    400024: Magic_1
+    400026: Magic_2
+    400028: Vine_L
+    400030: Vine_R
+    2100000: Crystal
+    2100002: emmision2
+    2100004: Metal1_Detalle
+    2100006: Metal1_Detalle.001
+    2100008: Metal1_Central
+    2100010: Original_UR
+    2100012: Material.003
+    2100014: Original_DR
+    2100016: MetalVines
+    2100018: Metal_CR
+    2100020: Metal_CL
+    2100022: MetalVines.001
+    2100024: Original_DL
+    2100026: emmision1
+    2300000: bm-lamp-post
+    2300002: bm-lamp-post.001
+    2300004: bm-lamp-post.002
+    2300006: bm-lamp-post.003
+    2300008: Circle
+    2300010: Circle.001
+    2300012: Columna_L
+    2300014: Columna_R
+    2300016: Forge_C
+    2300018: Forge_D
+    2300020: Forge_I
+    2300022: Magic_1
+    2300024: Magic_2
+    2300026: Vine_L
+    2300028: Vine_R
+    3300000: bm-lamp-post
+    3300002: bm-lamp-post.001
+    3300004: bm-lamp-post.002
+    3300006: bm-lamp-post.003
+    3300008: Circle
+    3300010: Circle.001
+    3300012: Columna_L
+    3300014: Columna_R
+    3300016: Forge_C
+    3300018: Forge_D
+    3300020: Forge_I
+    3300022: Magic_1
+    3300024: Magic_2
+    3300026: Vine_L
+    3300028: Vine_R
+    4300000: Circle.001
+    4300002: Circle
+    4300004: Magic_2
+    4300006: Forge_I
+    4300008: Forge_D
+    4300010: Forge_C
+    4300012: bm-lamp-post.003
+    4300014: bm-lamp-post.002
+    4300016: bm-lamp-post.001
+    4300018: Vine_R
+    4300020: Columna_R
+    4300022: Columna_L
+    4300024: Vine_L
+    4300026: bm-lamp-post
+    4300028: Magic_1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

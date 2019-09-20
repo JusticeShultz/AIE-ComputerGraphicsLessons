@@ -13,7 +13,7 @@ public class InventoryToggle : MonoBehaviour
     public GameObject MenuObject; //Reference to the menu object.
     public GameObject InventoryCamera; //Reference to the inventory camera.
     public GameObject GameCamera; //Reference to the game camera.
-
+    public Animator DoorAnimator_EtherialQuest; //Used for the ethereal quest.
     public GameObject PickupTooltip; //Reference to the pickup tooltip.
     public Text pickupName; //Reference to the pickup text on the pickup tooltip.
     
@@ -40,6 +40,7 @@ public class InventoryToggle : MonoBehaviour
         //If there is a collectable object.
         if (collectable != null)
         {
+            //If this is a quest object
             if (collectable.isShrine)
             {
                 if (!DoGameOverOnce)
@@ -50,15 +51,30 @@ public class InventoryToggle : MonoBehaviour
                     {
                         for (int i = 0; i < 30; i++)
                         {
-                            if (InventorySlot.inventorySlots[i].ItemName != "NA" && InventorySlot.inventorySlots[i].transform.parent.name != "CraftingWindow" && InventorySlot.inventorySlots[i].ItemName == "Philosopher's Stone")
+                            if (collectable.questFunction == CollectableData.QuestFunction.BloodHead)
                             {
-                                InventorySlot slot = InventorySlot.inventorySlots[i];
-                                slot.name = "NA";
-                                slot.ItemName = "Yeet you won";
-                                DoGameOverOnce = true;
-                                GameObject.Find("FinalActivationObject").GetComponent<Reference>().reference.SetActive(true);
-                                StartCoroutine(WinGame());
-                                break;
+                                if (InventorySlot.inventorySlots[i].ItemName != "NA" && InventorySlot.inventorySlots[i].transform.parent.name != "CraftingWindow" && InventorySlot.inventorySlots[i].ItemName == "Philosopher's Stone")
+                                {
+                                    InventorySlot slot = InventorySlot.inventorySlots[i];
+                                    slot.ItemName = "NA";
+                                    DoGameOverOnce = true;
+                                    GameObject.Find("FinalActivationObject").GetComponent<Reference>().reference.SetActive(true);
+                                    StartCoroutine(WinGame());
+                                    break;
+                                }
+                            }
+                            else if (collectable.questFunction == CollectableData.QuestFunction.EtherealDoor)
+                            {
+                                if (InventorySlot.inventorySlots[i].ItemName != "NA" && InventorySlot.inventorySlots[i].transform.parent.name != "CraftingWindow" && InventorySlot.inventorySlots[i].ItemName == "Ethereal Key")
+                                {
+                                    InventorySlot slot = InventorySlot.inventorySlots[i];
+                                    slot.ItemName = "NA";
+                                    DoGameOverOnce = true;
+                                    DoorAnimator_EtherialQuest.SetTrigger("OpenDoor");
+                                    Destroy(DoorAnimator_EtherialQuest.gameObject.GetComponent<Collectable>());
+                                    collectable = null;
+                                    break;
+                                }
                             }
                         }
                     }

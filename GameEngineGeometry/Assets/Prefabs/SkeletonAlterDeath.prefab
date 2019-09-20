@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4060700136977718}
   - component: {fileID: 198476325888705262}
   - component: {fileID: 199207897005523702}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SkeletonAlterDeath
   m_TagString: Untagged
   m_Icon: {fileID: 0}

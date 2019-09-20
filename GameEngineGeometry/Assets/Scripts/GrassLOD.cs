@@ -11,7 +11,9 @@ public class GrassLOD : MonoBehaviour
 
     void Update ()
     {
-        terrainObject1.detailObjectDensity = sliderObject.value;
-        terrainObject2.detailObjectDensity = sliderObject.value;
+        if(terrainObject1)
+            terrainObject1.detailObjectDensity = sliderObject.value;
+        if(terrainObject2)
+            terrainObject2.detailObjectDensity = sliderObject.value;
 	}
 }

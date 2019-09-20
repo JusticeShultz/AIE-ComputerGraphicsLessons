@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4132379802200586}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Jaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,7 +34,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4830462269300458}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:ELBOW_HELP_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,7 +49,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4577746618614982}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Collar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,7 +64,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4385241425888604}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:HEAD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,7 +79,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4729122410981344}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Elbow_Helper_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4105193184300798}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Index01_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4159026233071698}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Teeth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4063938254294500}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Index02_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4170700047609568}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Elbow_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -154,7 +154,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4027909475637030}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Knee_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4340904213207870}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Clavicle_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,7 +184,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4052291190101544}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Pinky01_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,7 +199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4847897522272550}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Spine_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4171782550929240}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Toe_tip_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -229,7 +229,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4621964117614410}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Pinky03_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -244,7 +244,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4587479738506308}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Thumb03_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +259,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4762063806317142}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:HAND_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -274,7 +274,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4115286775755340}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:TOE_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +289,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4656289881045706}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:KNEE_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +304,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4197570907211882}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:FOOT_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -319,7 +319,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4392762087737672}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:HEEL_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -334,7 +334,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4318622451640998}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Elbow_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -349,7 +349,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4087642396728236}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Middle02_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -364,7 +364,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4073852835061078}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Pinky01_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -379,7 +379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4868641697423576}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Middle01_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -394,7 +394,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4677850157110310}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:JAW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -409,7 +409,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4758458154569370}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Skeleton1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -424,7 +424,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4224740097253242}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Ring02_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -439,7 +439,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4373696140035790}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Thumb03_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -455,7 +455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4448169998116164}
   - component: {fileID: 137787110470841592}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:jar_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -470,7 +470,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4603355296772834}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Toe_IK_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -485,7 +485,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4407977021004526}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Joints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -500,7 +500,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4795403951259034}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:LEG_IK_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -515,7 +515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4819840551381088}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Thumb01_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -530,7 +530,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4294033505380036}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Handle_Disconnect_Point_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,7 +545,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4662599747185368}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:handle_Disconnect_Point_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -560,7 +560,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4883498550237600}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_RNannotation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -575,7 +575,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4986843489135150}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Middle02_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -590,7 +590,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4874036396047816}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:ELBOW_HELP_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -605,7 +605,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4863604730951654}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Belly_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -620,7 +620,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4970681468131506}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -635,7 +635,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4695802471262316}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Pinky02_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -650,7 +650,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4204117914310966}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Toe_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -666,7 +666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4067842196852172}
   - component: {fileID: 137700975461976490}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -681,7 +681,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4555110811389386}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Pinky03_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -696,7 +696,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4622766052147158}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:IK_Hand_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -711,7 +711,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4617208489415778}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Nose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -726,7 +726,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4947972485493448}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Foot_IK_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -741,7 +741,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4291484361340558}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Elbow_Helper_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -756,7 +756,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4596997889670990}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:MASTER
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -771,7 +771,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4453230746181338}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Hip_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -786,7 +786,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4779571330705228}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Hip_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -801,7 +801,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4891184686470432}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:SPINE_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -816,7 +816,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4975126927872622}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:HEEL_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -835,7 +835,7 @@ GameObject:
   - component: {fileID: 195915490169012140}
   - component: {fileID: 114079135924503168}
   - component: {fileID: 114661858601393236}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Skeleton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -850,7 +850,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4596611055331386}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Ring03_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -865,7 +865,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4841635316857436}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:EBLOW_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -880,7 +880,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4119632534340434}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Index02_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -895,7 +895,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4925090393374952}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Ring03_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -910,7 +910,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4679084049103308}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:SWORD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -925,7 +925,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4951314184285208}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Middle01_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -940,7 +940,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4265950849429574}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Toe_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -955,7 +955,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4984811834980214}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Ring02_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -970,7 +970,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4151541577846390}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:SPINE_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -985,7 +985,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4682229981792182}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Ring01_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1002,7 +1002,7 @@ GameObject:
   - component: {fileID: 4294902178077470}
   - component: {fileID: 95589286165161424}
   - component: {fileID: 114832116432257874}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Skeleton_Animated
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1017,7 +1017,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4956284696555502}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Shoulder_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1032,7 +1032,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4335610303242406}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Handle_End_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1048,7 +1048,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4742508898781964}
   - component: {fileID: 137423047590593358}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:W_sword_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1063,7 +1063,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4142595291920024}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Geometry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1078,7 +1078,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4721827084314076}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:EBLOW_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1093,7 +1093,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4701797100427498}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Foot_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1108,7 +1108,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4504089164950594}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Index03_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1123,7 +1123,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4022130230198540}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Clavicle_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1138,7 +1138,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4702682405376790}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Shoulder_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1153,7 +1153,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4385714095471582}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:SPINE_ROOT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1168,7 +1168,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4979478162095354}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:NECK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1183,7 +1183,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4975869393083440}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Pinky02_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1198,7 +1198,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4492292431024016}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Handle_End_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1213,7 +1213,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4030382954662606}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:FOOT_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1228,7 +1228,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4923230662087406}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Index01_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1243,7 +1243,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4565914598220902}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Toe_IK_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1258,7 +1258,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4767087062406112}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Middle03_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1273,7 +1273,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4680465260216734}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Wrist_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1288,7 +1288,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4681518076976162}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Thumb02_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1304,7 +1304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4003315291316684}
   - component: {fileID: 137302995622996004}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:skeleton_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1319,7 +1319,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4625205896437934}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:IK_Hand_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1334,7 +1334,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4521497566403226}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:HAND_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1349,7 +1349,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4008846819584452}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Knee_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1364,7 +1364,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4003634313394012}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1379,7 +1379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4340633697941568}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Middle03_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1394,7 +1394,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4828564156377416}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Spine_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1409,7 +1409,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4665438298274672}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Belly_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1424,7 +1424,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4257261302265768}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:KNEE_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1439,7 +1439,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4974244139033516}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:SPINE_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1454,7 +1454,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4710521495905884}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Ring01_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1469,7 +1469,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4916698678792734}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Thumb01_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1484,7 +1484,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4975498569110520}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Spine_root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1499,7 +1499,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4711337485509510}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Leg_IK_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1514,7 +1514,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4827289432477982}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Toe_tip_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1529,7 +1529,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4205101388636666}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Foot_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1544,7 +1544,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4718450544112278}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Handle_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1559,7 +1559,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4115721273275464}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Handle_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1574,7 +1574,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4748399948065086}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Spine_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1589,7 +1589,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4044943896301774}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Index03_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1604,7 +1604,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4107471823745184}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Thumb02_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1619,7 +1619,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4348028834825858}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Foot_IK_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1634,7 +1634,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4010794943334110}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:TOE_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1649,7 +1649,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4631577543885004}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:Wrist_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1664,7 +1664,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4607996799130376}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fight_Rework_:SHIELD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3240,11 +3240,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DebugMode: 0
+  IsHeadBoss: 0
   FalloffRange: 25
   AttackRange: 2.5
   AttackSpeed: 0.025
   NavAgent: {fileID: 195915490169012140}
   Animator: {fileID: 95589286165161424}
+  DashCooldown: 20
+  DashForce: 320
 --- !u!114 &114661858601393236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3258,7 +3261,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DestroyedState: {fileID: 1443742312947084, guid: f4cad4b5872771049855638bf5031c2a,
     type: 2}
+  Hits: 1
   DestroyParent: 0
+  IsBoss: 1
+  StartRotation: {x: 0, y: 0, z: 0}
 --- !u!114 &114832116432257874
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3270,6 +3276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 537c2eb447d9b904396fb6c208cbd473, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsBoss: 0
   Damage: 2.5
   AttackDistance: 3.5
 --- !u!136 &136939076900350700

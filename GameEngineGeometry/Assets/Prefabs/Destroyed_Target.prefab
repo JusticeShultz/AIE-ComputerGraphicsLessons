@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23105389957459406}
   - component: {fileID: 64538415964745246}
   - component: {fileID: 54287849466409994}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Circle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 23285169202364074}
   - component: {fileID: 64863938804662430}
   - component: {fileID: 54117511869129394}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Circle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,7 +63,7 @@ GameObject:
   - component: {fileID: 54442203073228170}
   - component: {fileID: 114478153950394426}
   - component: {fileID: 135298229760307148}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,7 +82,7 @@ GameObject:
   - component: {fileID: 23358017228736178}
   - component: {fileID: 64374140551207918}
   - component: {fileID: 54091795269277224}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 23024607658692684}
   - component: {fileID: 64481195366109620}
   - component: {fileID: 54857690853571216}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Circle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,7 +116,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4290187799938392}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Destroyed_Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 23119080168353902}
   - component: {fileID: 64475947944178476}
   - component: {fileID: 54268077385156572}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Circle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
