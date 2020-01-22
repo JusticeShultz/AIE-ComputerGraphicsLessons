@@ -1,1 +1,1 @@
-# AIE-ComputerGraphicsLessons
+# Custom Open GL Renderer
